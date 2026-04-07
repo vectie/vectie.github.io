@@ -14,12 +14,12 @@ https://vectie.com
 
 ## Owner
 
-[Jiaan Guo](https://github.com/vectie), owner of Vectie.
+[Jiaan Guo](http://github.com/jiaanguo), owner of Vectie.
 
 - Wechat: vectie
 - Email: [vectie@qq.com](mailto:vectie@qq.com)
-- GitHub: https://github.com/vectie
-- Gitee: https://github.com/gitee
+- GitHub: [https://github.com/vectie](https://github.com/vectie)
+- Gitee: [https://gitee.com/vectie](https://gitee.com/vectie)
 
 
 ## Projects
@@ -29,13 +29,8 @@ Vectie now has the following hot projects:
 
 | # | Project | Description | Popularity |
 | --- | --- | --- | --- |
-| 1   | [advanced-java](https://github.com/vectie/advanced-java)           |  Core interview questions & answers for experienced Java(Backend) developers.             | ![](https://badgen.net/github/stars/vectie/advanced-java) <br>![](https://badgen.net/github/forks/vectie/advanced-java)           |
-| 2   | [leetcode](https://github.com/vectie/leetcode)                     | LeetCode solutions in any programming language.                                                                                                                      | ![](https://badgen.net/github/stars/vectie/leetcode) <br>![](https://badgen.net/github/forks/vectie/leetcode)                     |
-| 3   | [source-code-hunter](https://github.com/vectie/source-code-hunter) | Source code analysis of frameworks and components.                                                                                                                   | ![](https://badgen.net/github/stars/vectie/source-code-hunter) <br>![](https://badgen.net/github/forks/vectie/source-code-hunter) | ![](https://badgen.net/github/stars/vectie/coding-interview) <br>![](https://badgen.net/github/forks/vectie/source-code-hunter) |
-| 4   | [jvm](https://github.com/vectie/jvm)                               | A summary of the underlying principles of Java Virtual Machine.                                                                                                      | ![](https://badgen.net/github/stars/vectie/jvm) <br>![](https://badgen.net/github/forks/vectie/jvm)                               |
-| 5   | [coding-interview](https://github.com/vectie/coding-interview)     | A collection of interview questions for programmers. The main contents include ‘Coding Interviews: Questions, Analysis and Solutions’, ‘Beauty of Programming’, etc. | ![](https://badgen.net/github/stars/vectie/coding-interview) <br>![](https://badgen.net/github/forks/vectie/coding-interview)     |
-| 6   | [md](https://github.com/vectie/md)                                 | An online wechat markdown editor.                                                                                                                                    | ![](https://badgen.net/github/stars/vectie/md) <br>![](https://badgen.net/github/forks/vectie/md)                                 |
-| 7   | [technical-books](https://github.com/vectie/technical-books)       | Awesome programming books list.                                                                                                                                      | ![](https://badgen.net/github/stars/vectie/technical-books) <br>![](https://badgen.net/github/forks/vectie/technical-books)       |
+| 1   | [moonbook](https://github.com/vectie/moonbook) | MoonBit-native mdBook port with static rendering, local serving, watch workflows, and a persistent wiki workspace. | ![](https://badgen.net/github/stars/vectie/moonbook) <br>![](https://badgen.net/github/forks/vectie/moonbook) |
+| 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 
 ## How to join
 

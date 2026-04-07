@@ -14,12 +14,12 @@ https://vectie.com
 
 ## 发起人
 
-[Jiaan Guo](https://github.com/vectie)，Vectie 发起人。
+[Jiaan Guo](http://github.com/jiaanguo)，Vectie 发起人。
 
 - 微信： vectie
 - 邮箱：[vectie@qq.com](mailto:vectie@qq.com)
-- Gitee：https://github.com/gitee
-- GitHub: https://github.com/vectie
+- Gitee：[https://gitee.com/vectie](https://gitee.com/vectie)
+- GitHub: [https://github.com/vectie](https://github.com/vectie)
 
 ## 项目
 
@@ -27,13 +27,8 @@ https://vectie.com
 
 | # | 项目 | 描述 | 热度 |
 | --- | --- | --- | --- |
-| 1   | [advanced-java](https://github.com/vectie/advanced-java)           | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。 | ![](https://badgen.net/github/stars/vectie/advanced-java) <br>![](https://badgen.net/github/forks/vectie/advanced-java)           |
-| 2   | [leetcode](https://github.com/vectie/leetcode)                     | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解。        | ![](https://badgen.net/github/stars/vectie/leetcode) <br>![](https://badgen.net/github/forks/vectie/leetcode)                     |
-| 3   | [source-code-hunter](https://github.com/vectie/source-code-hunter) | 互联网常用组件框架源码分析。                                                                     | ![](https://badgen.net/github/stars/vectie/source-code-hunter) <br>![](https://badgen.net/github/forks/vectie/source-code-hunter) |
-| 4   | [jvm](https://github.com/vectie/jvm)                               | Java 虚拟机底层原理知识总结。                                                                    | ![](https://badgen.net/github/stars/vectie/jvm) <br>![](https://badgen.net/github/forks/vectie/jvm)                               |
-| 5   | [coding-interview](https://github.com/vectie/coding-interview)     | 代码面试题集，包括《剑指 Offer》、《编程之美》等。                                               | ![](https://badgen.net/github/stars/vectie/coding-interview) <br>![](https://badgen.net/github/forks/vectie/coding-interview)     |
-| 6   | [md](https://github.com/vectie/md)                                 | 一款高度简洁的微信 Markdown 编辑器。                                                             | ![](https://badgen.net/github/stars/vectie/md) <br>![](https://badgen.net/github/forks/vectie/md)                                 |
-| 7   | [technical-books](https://github.com/vectie/technical-books)       | 值得一看的技术书籍列表。                                                                         | ![](https://badgen.net/github/stars/vectie/technical-books) <br>![](https://badgen.net/github/forks/vectie/technical-books)       |
+| 1   | [moonbook](https://github.com/vectie/moonbook) | MoonBit 原生 mdBook 实现，包含静态渲染、本地服务、watch 工作流和持久化 wiki 工作区。 | ![](https://badgen.net/github/stars/vectie/moonbook) <br>![](https://badgen.net/github/forks/vectie/moonbook) |
+| 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。 | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 
 ## 如何加入
 
