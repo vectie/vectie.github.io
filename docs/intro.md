@@ -16,8 +16,6 @@ https://vectie.com
 
 [Jiaan Guo](http://github.com/jiaanguo)，Vectie 发起人。
 
-- 微信： vectie
-- 邮箱：[vectie@qq.com](mailto:vectie@qq.com)
 - Gitee：[https://gitee.com/vectie](https://gitee.com/vectie)
 - GitHub: [https://github.com/vectie](https://github.com/vectie)
 
@@ -39,7 +37,6 @@ https://vectie.com
 如果你热爱开源，或者抱着一颗好奇的心，不妨加入 [Vectie](https://github.com/vectie) 组织，和我们一起维护项目，共同成长。可以通过以下两种方式加入：
 
 - 直接在[此项目](https://github.com/vectie/vectie.github.io)的 [issue](https://github.com/vectie/vectie.github.io/issues/1) 上评论，告知我们你想加入 Vectie。
-- 发送邮件到 [vectie@qq.com](mailto:vectie@qq.com?Subject=加入Vectie开源组织)，写明你的 GitHub ID，如 [vectie](https://github.com/vectie)。
 
 默认情况下，在你加入我们之后，你作为 GitHub Vectie 组织成员的信息是处于隐藏状态的。如果你希望在你的个人 GitHub 资料页上展示 Vectie 组织，你可以在此链接 https://github.com/orgs/vectie/people 处将你的信息从 `private` “**私有**”改为 `public` “**公开**”。当然，我们推荐设置为**公开**。
 

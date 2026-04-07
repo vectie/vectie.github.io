@@ -16,8 +16,6 @@ https://vectie.com
 
 [Jiaan Guo](http://github.com/jiaanguo), owner of Vectie.
 
-- Wechat: vectie
-- Email: [vectie@qq.com](mailto:vectie@qq.com)
 - GitHub: [https://github.com/vectie](https://github.com/vectie)
 - Gitee: [https://gitee.com/vectie](https://gitee.com/vectie)
 
@@ -39,7 +37,6 @@ Vectie now has the following hot projects:
 I believe many of you have a deep understanding that participating in open source projects is very helpful for personal growth. If you love open source or you are curious about it, join Vectie, work with us, maintain our projects and grow together. You can join us in the following two ways:
 
 - Comment on the [relevant issue](https://github.com/vectie/vectie.github.io/issues) on GitHub to express interest in joining the community.
-- Send an email to [vectie@qq.com](mailto:vectie@qq.com?Subject=Join%20the%20Vectie%20Open%20Source%20organization) with the GitHub ID, such as [vectie](https://github.com/vectie), to request to join the community.
 
 By default, your Vectie membership will be hidden from view aftering joining us. If you'd like to display the organization icon in your profile, you can switch from "Private" to "Public" here: https://github.com/orgs/vectie/people. We also recommend setting it to Public.
 
