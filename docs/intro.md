@@ -34,19 +34,15 @@ https://vectie.com
 
 参与开源项目，对于个人的成长是有很大帮助的，相信很多小伙伴都有体会。
 
-如果你热爱开源，或者抱着一颗好奇的心，不妨加入 [Vectie](https://github.com/vectie) 组织，和我们一起维护项目，共同成长。可以通过以下两种方式加入：
+Vectie 是一个关注 agents、LLM 和 robotics 的开源组织。如果你对这些方向感兴趣，欢迎加入我们，一起做代码、实验、文档、工具和系统。
 
-- 直接在[此项目](https://github.com/vectie/vectie.github.io)的 [issue](https://github.com/vectie/vectie.github.io/issues/1) 上评论，告知我们你想加入 Vectie。
+- 直接在 [community discussion](https://github.com/orgs/vectie/discussions/241) 下面留言，简单介绍你对 agents、LLM、robotics 或相关基础设施的兴趣。
 
-默认情况下，在你加入我们之后，你作为 GitHub Vectie 组织成员的信息是处于隐藏状态的。如果你希望在你的个人 GitHub 资料页上展示 Vectie 组织，你可以在此链接 https://github.com/orgs/vectie/people 处将你的信息从 `private` “**私有**”改为 `public` “**公开**”。当然，我们推荐设置为**公开**。
+默认情况下，你加入后在 GitHub 上的 Vectie 组织成员身份是隐藏的。如果你希望在个人主页展示该组织，可以在 https://github.com/orgs/vectie/people 把 `private` 改成 `public`。
 
-**注意**，刚开始加入，你**暂时**不会有项目的直接 write 权限，因为我们不确定你的提交是否符合项目规范。
+新成员通常从 fork 项目、提交 PR、熟悉协作流程开始。持续稳定地做出高质量贡献后，可以进一步参与项目协作。
 
-你可以 fork 任何一个感兴趣的项目到你的个人 GitHub 帐户下，对项目作出修改后，提交你的 PR。Vectie 维护者会对你的提交内容进行 review。或许你最初的提交并不规范，这也没关系，改进之后，慢慢的，整个规范性就有了。当你的提交一直很符合项目的规范性，Vectie 维护者会将你添加到对应项目的 Collaborators 列表中，共同维护好项目。
-
-如果你不熟悉 GitHub 操作流程，可以参考[这篇文章](https://github.com/firstcontributions/first-contributions/blob/main/translations/README.zh-cn.md)。
-
-Vectie 期待你的加入。
+如果你还不熟悉 GitHub 开源协作流程，可以参考[这篇文章](https://github.com/firstcontributions/first-contributions/blob/main/translations/README.zh-cn.md)。
 
 ## 贡献者列表
 
