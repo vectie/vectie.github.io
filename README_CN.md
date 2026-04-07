@@ -1,6 +1,5 @@
 # 介绍
 
-[![gitcode](https://badgen.net/badge/>>/GitCode/cyan)](https://gitcode.com/vectie/vectie)
 [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie/vectie)
 [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie/vectie)
 [![vectie-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#如何加入)
@@ -15,13 +14,12 @@ https://vectie.com
 
 ## 发起人
 
-[杨立滨](https://github.com/yanglbme)，专注于互联网后端领域。
+[Jiaan Guo](https://github.com/vectie)，Vectie 发起人。
 
-- 微信： YLB0109
-- 邮箱：[contact@yanglibin.info](mailto:contact@yanglibin.info)
-- GitCode: https://gitcode.com/yanglbme
-- Gitee：https://gitee.com/yanglbme
-- GitHub: https://github.com/yanglbme
+- 微信： vectie
+- 邮箱：[vectie@qq.com](mailto:vectie@qq.com)
+- Gitee：https://github.com/gitee
+- GitHub: https://github.com/vectie
 
 ## 项目
 
@@ -46,7 +44,7 @@ https://vectie.com
 如果你热爱开源，或者抱着一颗好奇的心，不妨加入 [Vectie](https://github.com/vectie) 组织，和我们一起维护项目，共同成长。可以通过以下两种方式加入：
 
 - 直接在[此项目](https://github.com/vectie/vectie.github.io)的 [discussion](https://github.com/orgs/vectie/discussions/241) 上评论，告知我们你想加入 Vectie。
-- 发送邮件到 [admin@vectie.com](mailto:admin@vectie.com?Subject=加入Vectie开源组织)，写明你的 GitHub ID，如 [yanglbme](https://github.com/yanglbme)。
+- 发送邮件到 [vectie@qq.com](mailto:vectie@qq.com?Subject=加入Vectie开源组织)，写明你的 GitHub ID，如 [vectie](https://github.com/vectie)。
 
 默认情况下，在你加入我们之后，你作为 GitHub Vectie 组织成员的信息是处于隐藏状态的。如果你希望在你的个人 GitHub 资料页上展示 Vectie 组织，你可以在此链接 https://github.com/orgs/vectie/people 处将你的信息从 `private` “**私有**”改为 `public` “**公开**”。当然，我们推荐设置为**公开**。
 
@@ -74,7 +72,7 @@ GitHub 技术社区 [Vectie](https://github.com/vectie) 旗下唯一公众号「
       <img src="https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-vectie.png" style="width: 400px;"><br>
     </td>
     <td align="center" style="width: 260px;">
-      <img src="https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-yanglbme.png" style="width: 400px;"><br>
+      <img src="https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-vectie.png" style="width: 400px;"><br>
     </td>
   </tr>
 </table>
