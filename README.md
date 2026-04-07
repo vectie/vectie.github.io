@@ -14,14 +14,6 @@ See the [中文文档](README_CN.md) for Chinese README.
 
 https://vectie.com
 
-## Owner
-
-[Jiaan Guo](http://github.com/jiaanguo), owner of Vectie.
-
-- GitHub: [https://github.com/vectie](https://github.com/vectie)
-- Gitee: [https://gitee.com/vectie](https://gitee.com/vectie)
-
-
 ## Projects
 
 Vectie now has the following hot projects:
@@ -38,7 +30,7 @@ Vectie now has the following hot projects:
 
 Vectie is an open-source group for people who want to build practical systems around agents, LLMs, and robotics. If those areas interest you, join us and contribute code, experiments, docs, tooling, or ideas.
 
-- Comment on the [community discussion](https://github.com/orgs/vectie/discussions/241) and briefly introduce your interests in agents, LLMs, robotics, or related infrastructure.
+- Comment on [Vectie Discussions](https://github.com/orgs/vectie/discussions) and briefly introduce your interests in agents, LLMs, robotics, or related infrastructure.
 
 By default, your Vectie membership is hidden. If you want the organization to appear on your GitHub profile, change it from "Private" to "Public" at https://github.com/orgs/vectie/people.
 
@@ -48,19 +40,7 @@ If you are new to open source, you can start with this [guide](https://github.co
 
 ## Contributors
 
-This organization exists thanks to all the people who contribute.
+Vectie exists thanks to everyone who contributes code, docs, ideas, and reviews.
 
-<a href="https://github.vectie.com" target="_blank"><img src="https://raw.githubusercontent.com/vectie/.github/main/images/contributors.png" /></a>
-
-## Contact
-
-<table>
-  <tr>
-    <td align="center" style="width: 260px;">
-      <img src="https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-vectie-en.png" style="width: 400px;"><br>
-    </td>
-    <td align="center" style="width: 260px;">
-      <img src="https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-vectie-en.png" style="width: 400px;"><br>
-    </td>
-  </tr>
-</table>
+- Organization: [github.com/vectie](https://github.com/vectie)
+- This site contributors: [vectie/vectie.github.io contributors](https://github.com/vectie/vectie.github.io/graphs/contributors)
