@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Doocs",
-  description: "Doocs open souce organization",
+  title: "Vectie",
+  description: "Vectie open souce organization",
   locales: {
     root: {
       label: '简体中文',
@@ -17,13 +17,13 @@ export default defineConfig({
         logo: '/favicon-32x32.png',
         footer: {
           message: 'Released under the CC-BY-SA-4.0 license.',
-          copyright: `版权所有 © 2018-${new Date().getFullYear()} <a href="https://github.com/doocs">Doocs</a>`
+          copyright: `版权所有 © 2018-${new Date().getFullYear()} <a href="https://github.com/vectie">Vectie</a>`
         },
         outline: {
           label: '页面导航'
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/doocs' }
+          { icon: 'github', link: 'https://github.com/vectie' }
         ],
         langMenuLabel: '多语言',
         returnToTopLabel: '回到顶部',
@@ -45,10 +45,10 @@ export default defineConfig({
         logo: '/favicon-32x32.png',
         footer: {
           message: 'Released under the CC-BY-SA-4.0 license.',
-          copyright: `Copyright © 2018-${new Date().getFullYear()} <a href="https://github.com/doocs">Doocs</a>`
+          copyright: `Copyright © 2018-${new Date().getFullYear()} <a href="https://github.com/vectie">Vectie</a>`
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/doocs' }
+          { icon: 'github', link: 'https://github.com/vectie' }
         ]
       }
     }
@@ -95,6 +95,6 @@ export default defineConfig({
   ],
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://doocs.org'
+    hostname: 'https://vectie.com'
   }
 })

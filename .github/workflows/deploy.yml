@@ -29,7 +29,7 @@ jobs:
         run: pnpm run docs:build
 
       - name: Generate CNAME
-        run: echo "doocs.org" > docs/.vitepress/dist/CNAME
+        run: echo "vectie.com" > docs/.vitepress/dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

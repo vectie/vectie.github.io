@@ -12,7 +12,7 @@ on:
 jobs:
   compress:
     runs-on: ubuntu-latest
-    if: github.repository == 'doocs/doocs.github.io'
+    if: github.repository == 'vectie/vectie.github.io'
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v4

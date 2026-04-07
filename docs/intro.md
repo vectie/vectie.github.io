@@ -1,17 +1,17 @@
 # 介绍
 
-[![gitcode](https://badgen.net/badge/>>/GitCode/cyan)](https://gitcode.com/doocs/doocs)
-[![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/doocs/doocs)
-[![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/doocs/doocs)
-[![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#如何加入)
-[![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)
-[![license](https://badgen.net/github/license/doocs/doocs.github.io?color=green)](https://github.com/doocs/doocs.github.io/blob/main/LICENSE)
+[![gitcode](https://badgen.net/badge/>>/GitCode/cyan)](https://gitcode.com/vectie/vectie)
+[![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie/vectie)
+[![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie/vectie)
+[![vectie-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#如何加入)
+[![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/vectie)
+[![license](https://badgen.net/github/license/vectie/vectie.github.io?color=green)](https://github.com/vectie/vectie.github.io/blob/main/LICENSE)
 
-你好呀，欢迎来到 [Doocs](https://github.com/doocs) 开源社区。我们是一个非常友好的技术社区，目前专注于分享技术领域相关知识。
+你好呀，欢迎来到 [Vectie](https://github.com/vectie) 开源社区。我们是一个非常友好的技术社区，目前专注于分享技术领域相关知识。
 
 ## 站点
 
-https://doocs.org
+https://vectie.com
 
 ## 发起人
 
@@ -25,17 +25,17 @@ https://doocs.org
 
 ## 项目
 
-目前 Doocs 有以下多个热门项目，欢迎 Star ⭐ 关注~
+目前 Vectie 有以下多个热门项目，欢迎 Star ⭐ 关注~
 
 | # | 项目 | 描述 | 热度 |
 | --- | --- | --- | --- |
-| 1   | [advanced-java](https://github.com/doocs/advanced-java)           | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。 | ![](https://badgen.net/github/stars/doocs/advanced-java) <br>![](https://badgen.net/github/forks/doocs/advanced-java)           |
-| 2   | [leetcode](https://github.com/doocs/leetcode)                     | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解。        | ![](https://badgen.net/github/stars/doocs/leetcode) <br>![](https://badgen.net/github/forks/doocs/leetcode)                     |
-| 3   | [source-code-hunter](https://github.com/doocs/source-code-hunter) | 互联网常用组件框架源码分析。                                                                     | ![](https://badgen.net/github/stars/doocs/source-code-hunter) <br>![](https://badgen.net/github/forks/doocs/source-code-hunter) |
-| 4   | [jvm](https://github.com/doocs/jvm)                               | Java 虚拟机底层原理知识总结。                                                                    | ![](https://badgen.net/github/stars/doocs/jvm) <br>![](https://badgen.net/github/forks/doocs/jvm)                               |
-| 5   | [coding-interview](https://github.com/doocs/coding-interview)     | 代码面试题集，包括《剑指 Offer》、《编程之美》等。                                               | ![](https://badgen.net/github/stars/doocs/coding-interview) <br>![](https://badgen.net/github/forks/doocs/coding-interview)     |
-| 6   | [md](https://github.com/doocs/md)                                 | 一款高度简洁的微信 Markdown 编辑器。                                                             | ![](https://badgen.net/github/stars/doocs/md) <br>![](https://badgen.net/github/forks/doocs/md)                                 |
-| 7   | [technical-books](https://github.com/doocs/technical-books)       | 值得一看的技术书籍列表。                                                                         | ![](https://badgen.net/github/stars/doocs/technical-books) <br>![](https://badgen.net/github/forks/doocs/technical-books)       |
+| 1   | [advanced-java](https://github.com/vectie/advanced-java)           | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。 | ![](https://badgen.net/github/stars/vectie/advanced-java) <br>![](https://badgen.net/github/forks/vectie/advanced-java)           |
+| 2   | [leetcode](https://github.com/vectie/leetcode)                     | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解。        | ![](https://badgen.net/github/stars/vectie/leetcode) <br>![](https://badgen.net/github/forks/vectie/leetcode)                     |
+| 3   | [source-code-hunter](https://github.com/vectie/source-code-hunter) | 互联网常用组件框架源码分析。                                                                     | ![](https://badgen.net/github/stars/vectie/source-code-hunter) <br>![](https://badgen.net/github/forks/vectie/source-code-hunter) |
+| 4   | [jvm](https://github.com/vectie/jvm)                               | Java 虚拟机底层原理知识总结。                                                                    | ![](https://badgen.net/github/stars/vectie/jvm) <br>![](https://badgen.net/github/forks/vectie/jvm)                               |
+| 5   | [coding-interview](https://github.com/vectie/coding-interview)     | 代码面试题集，包括《剑指 Offer》、《编程之美》等。                                               | ![](https://badgen.net/github/stars/vectie/coding-interview) <br>![](https://badgen.net/github/forks/vectie/coding-interview)     |
+| 6   | [md](https://github.com/vectie/md)                                 | 一款高度简洁的微信 Markdown 编辑器。                                                             | ![](https://badgen.net/github/stars/vectie/md) <br>![](https://badgen.net/github/forks/vectie/md)                                 |
+| 7   | [technical-books](https://github.com/vectie/technical-books)       | 值得一看的技术书籍列表。                                                                         | ![](https://badgen.net/github/stars/vectie/technical-books) <br>![](https://badgen.net/github/forks/vectie/technical-books)       |
 
 ## 如何加入
 
@@ -43,31 +43,30 @@ https://doocs.org
 
 参与开源项目，对于个人的成长是有很大帮助的，相信很多小伙伴都有体会。
 
-如果你热爱开源，或者抱着一颗好奇的心，不妨加入 [Doocs](https://github.com/doocs) 组织，和我们一起维护项目，共同成长。可以通过以下两种方式加入：
+如果你热爱开源，或者抱着一颗好奇的心，不妨加入 [Vectie](https://github.com/vectie) 组织，和我们一起维护项目，共同成长。可以通过以下两种方式加入：
 
-- 直接在[此项目](https://github.com/doocs/doocs.github.io)的 [issue](https://github.com/doocs/doocs.github.io/issues/1) 上评论，告知我们你想加入 Doocs。
-- 发送邮件到 [admin@doocs.org](mailto:admin@doocs.org?Subject=加入Doocs开源组织)，写明你的 GitHub ID，如 [yanglbme](https://github.com/yanglbme)。
+- 直接在[此项目](https://github.com/vectie/vectie.github.io)的 [issue](https://github.com/vectie/vectie.github.io/issues/1) 上评论，告知我们你想加入 Vectie。
+- 发送邮件到 [admin@vectie.com](mailto:admin@vectie.com?Subject=加入Vectie开源组织)，写明你的 GitHub ID，如 [yanglbme](https://github.com/yanglbme)。
 
-默认情况下，在你加入我们之后，你作为 GitHub Doocs 组织成员的信息是处于隐藏状态的。如果你希望在你的个人 GitHub 资料页上展示 Doocs 组织，你可以在此链接 https://github.com/orgs/doocs/people 处将你的信息从 `private` “**私有**”改为 `public` “**公开**”。当然，我们推荐设置为**公开**。
+默认情况下，在你加入我们之后，你作为 GitHub Vectie 组织成员的信息是处于隐藏状态的。如果你希望在你的个人 GitHub 资料页上展示 Vectie 组织，你可以在此链接 https://github.com/orgs/vectie/people 处将你的信息从 `private` “**私有**”改为 `public` “**公开**”。当然，我们推荐设置为**公开**。
 
 **注意**，刚开始加入，你**暂时**不会有项目的直接 write 权限，因为我们不确定你的提交是否符合项目规范。
 
-你可以 fork 任何一个感兴趣的项目到你的个人 GitHub 帐户下，对项目作出修改后，提交你的 PR。Doocs 维护者会对你的提交内容进行 review。或许你最初的提交并不规范，这也没关系，改进之后，慢慢的，整个规范性就有了。当你的提交一直很符合项目的规范性，Doocs 维护者会将你添加到对应项目的 Collaborators 列表中，共同维护好项目。
+你可以 fork 任何一个感兴趣的项目到你的个人 GitHub 帐户下，对项目作出修改后，提交你的 PR。Vectie 维护者会对你的提交内容进行 review。或许你最初的提交并不规范，这也没关系，改进之后，慢慢的，整个规范性就有了。当你的提交一直很符合项目的规范性，Vectie 维护者会将你添加到对应项目的 Collaborators 列表中，共同维护好项目。
 
 如果你不熟悉 GitHub 操作流程，可以参考[这篇文章](https://github.com/firstcontributions/first-contributions/blob/main/translations/README.zh-cn.md)。
 
-Doocs 期待你的加入。
+Vectie 期待你的加入。
 
 ## 贡献者列表
 
 感谢以下所有为此开源组织做出贡献的开发者朋友们。
 
-<a href="https://github.doocs.org" target="_blank"><img src="https://raw.githubusercontent.com/doocs/.github/main/images/contributors.png" /></a>
+<a href="https://github.vectie.com" target="_blank"><img src="https://raw.githubusercontent.com/vectie/.github/main/images/contributors.png" /></a>
 
 ## 联系我
 
-GitHub 技术社区 [Doocs](https://github.com/doocs) 旗下唯一公众号「**Doocs**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+GitHub 技术社区 [Vectie](https://github.com/vectie) 旗下唯一公众号「**Vectie**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
 
-| ![QRCode1](https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/images/qrcode-for-doocs.png) | ![QRCode2](https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/images/qrcode-for-yanglbme.png) |
+| ![QRCode1](https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-vectie.png) | ![QRCode2](https://cdn-vectie.oss-cn-shenzhen.aliyuncs.com/gh/vectie/images/qrcode-for-yanglbme.png) |
 |:---------------------------------------------:|:---------------------------------------------:|
-

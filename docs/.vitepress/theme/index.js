@@ -13,7 +13,7 @@ const { frontmatter } = toRefs(useData());
 const route = useRoute();
 
         giscusTalk({
-            repo: 'doocs/doocs.github.io',
+            repo: 'vectie/vectie.github.io',
             repoId: 'MDEwOlJlcG9zaXRvcnkxNjQzMDM4NTM=',
             mapping: 'number',
             inputPosition: 'top',
