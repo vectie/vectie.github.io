@@ -40,5 +40,4 @@ If you are new to open source, you can start with this [guide](https://github.co
 
 Vectie exists thanks to everyone who contributes code, docs, ideas, and reviews.
 
-- Organization: [github.com/vectie](https://github.com/vectie)
-- This site contributors: [vectie/vectie.github.io contributors](https://github.com/vectie/vectie.github.io/graphs/contributors)
+[![Vectie contributors](https://api.vaunt.dev/v1/github/entities/vectie/contributors?limit=24&format=svg)](https://github.com/vectie)
