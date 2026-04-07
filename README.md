@@ -38,8 +38,22 @@ New members usually start by forking a project, opening pull requests, and build
 
 If you are new to open source, you can start with this [guide](https://github.com/firstcontributions/first-contributions/blob/master/README.md).
 
+## Core Members
+
+<p>
+  <a href="https://github.com/jiaanguo"><img src="https://github.com/jiaanguo.png?size=96" width="64" height="64" alt="jiaanguo" /></a>
+  <a href="https://github.com/giantclaw"><img src="https://github.com/giantclaw.png?size=96" width="64" height="64" alt="giantclaw" /></a>
+  <a href="https://github.com/zhangsj0608"><img src="https://github.com/zhangsj0608.png?size=96" width="64" height="64" alt="zhangsj0608" /></a>
+</p>
+
+- [jiaanguo](https://github.com/jiaanguo)
+- [giantclaw](https://github.com/giantclaw)
+- [zhangsj0608](https://github.com/zhangsj0608)
+
 ## Contributors
 
 Vectie exists thanks to everyone who contributes code, docs, ideas, and reviews.
 
-[![Vectie contributors](https://api.vaunt.dev/v1/github/entities/vectie/contributors?limit=24&format=svg)](https://github.com/vectie)
+<a href="https://github.com/vectie">
+  <img src="https://api.vaunt.dev/v1/github/entities/vectie/contributors?limit=24&format=svg" alt="Vectie contributors" width="420" />
+</a>
