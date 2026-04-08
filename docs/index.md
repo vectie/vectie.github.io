@@ -25,7 +25,7 @@ features:
     link: https://github.com/vectie/moonclaw
 
   - title: moontown
-    details: 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，负责路由、隔离、持久化，以及一块处理文明混乱的仪表盘。
+    details: 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。
     icon: 🌕
     link: https://github.com/vectie/moontown
 ---

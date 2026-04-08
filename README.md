@@ -3,7 +3,6 @@
 [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie)
 [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie)
 [![vectie-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#how-to-join)
-[![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/vectie)
 [![license](https://badgen.net/github/license/vectie/vectie.github.io?color=green)](https://github.com/vectie/vectie.github.io/blob/main/LICENSE)
 
 welcome to [Vectie](https://github.com/vectie) 向量贴贴
