@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Vectie"
-  text: "开发者友好的开源社区"
+  text: "on the moon! 🤣🤣🤣"
   actions:
     - theme: alt
       text: GitHub
@@ -23,4 +23,9 @@ features:
     details: MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。
     icon: 🐇
     link: https://github.com/vectie/moonclaw
+
+  - title: moontown
+    details: 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，负责路由、隔离、持久化，以及一块处理文明混乱的仪表盘。
+    icon: 🌕
+    link: https://github.com/vectie/moontown
 ---

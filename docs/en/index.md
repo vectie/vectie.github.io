@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Vectie"
-  text: "Developer-friendly Open-source Community"
+  text: "on the moon! 🤣🤣🤣"
   actions:
     - theme: alt
       text: GitHub
@@ -23,4 +23,9 @@ features:
     details: MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control.
     icon: 🐇
     link: https://github.com/vectie/moonclaw
+
+  - title: moontown
+    details: Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard for civilized chaos.
+    icon: 🌕
+    link: https://github.com/vectie/moontown
 ---

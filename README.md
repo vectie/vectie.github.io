@@ -6,7 +6,15 @@
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/vectie)
 [![license](https://badgen.net/github/license/vectie/vectie.github.io?color=green)](https://github.com/vectie/vectie.github.io/blob/main/LICENSE)
 
-Hello, everyone! Welcome to the [Vectie](https://github.com/vectie) Open Source community. We are currently focusing on sharing various development-related knowledge.
+welcome to [Vectie](https://github.com/vectie) 向量贴贴
+
+you got my job done!
+
+not me~
+
+then where is that person?
+
+on the moon! 🤣🤣🤣
 
 See the [中文文档](README_CN.md) for Chinese README.
 
@@ -16,19 +24,20 @@ https://vectie.com
 
 ## Projects
 
-Vectie now has the following hot projects:
+Vectie now has the following hot projects. Think of them as one book, one claw, and one whole town.
 
 
 | # | Project | Description | Popularity |
 | --- | --- | --- | --- |
 | 1   | [moonbook](https://github.com/vectie/moonbook) | MoonBit-native mdBook port with static rendering, local serving, watch workflows, and a persistent wiki workspace. | ![](https://badgen.net/github/stars/vectie/moonbook) <br>![](https://badgen.net/github/forks/vectie/moonbook) |
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
+| 3   | [moontown](https://github.com/vectie/moontown) | Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard that knows who is causing trouble. | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 
 ## How to join
 
 > _If you want to go fast, go alone. If you want to go far, go together._
 
-Vectie is an open-source group for people who want to build practical systems around agents, LLMs, and robotics. If those areas interest you, join us and contribute code, experiments, docs, tooling, or ideas.
+Vectie is an open-source group for people who want to build practical systems around agents, LLMs, and robotics. If those areas interest you, join us and contribute code, experiments, docs, tooling, ideas, or one very convincing bug report.
 
 - Comment on [Vectie Discussions](https://github.com/orgs/vectie/discussions) and briefly introduce your interests in agents, LLMs, robotics, or related infrastructure.
 
