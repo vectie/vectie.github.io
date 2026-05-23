@@ -23,7 +23,7 @@ https://vectie.com
 
 ## Projects
 
-Vectie now has the following hot projects. Think of them as one book, one claw, and one whole town.
+Vectie now has the following hot projects. Think of them as one book, one claw, one whole town, and one desk for the humans.
 
 
 | # | Project | Description | Popularity |
@@ -31,6 +31,7 @@ Vectie now has the following hot projects. Think of them as one book, one claw, 
 | 1   | [moonbook](https://github.com/vectie/moonbook) | MoonBit-native mdBook port with static rendering, local serving, watch workflows, and a persistent wiki workspace. | ![](https://badgen.net/github/stars/vectie/moonbook) <br>![](https://badgen.net/github/forks/vectie/moonbook) |
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard that knows who is causing trouble. | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
+| 4   | [moondesk](https://github.com/vectie/moondesk) | Human desktop companion for the Moon system, built to inspect MoonBook workspaces, review MoonClaw artifacts, submit work to Moontown, and manage files without dropping into a terminal. | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
 
 ## How to join
 

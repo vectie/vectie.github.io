@@ -28,4 +28,9 @@ features:
     details: 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。
     icon: 🌕
     link: https://github.com/vectie/moontown
+
+  - title: moondesk
+    details: Moon 系统的人类桌面伙伴，用来查看 MoonBook 工作区、审阅 MoonClaw 产物、向 Moontown 提交任务，以及在不切终端的情况下管理文件。
+    icon: 🖥️
+    link: https://github.com/vectie/moondesk
 ---

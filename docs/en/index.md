@@ -28,4 +28,9 @@ features:
     details: Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard for civilized chaos.
     icon: 🌕
     link: https://github.com/vectie/moontown
+
+  - title: moondesk
+    details: Human desktop companion for the Moon system to inspect MoonBook workspaces, review MoonClaw artifacts, submit work to Moontown, and manage files without dropping into a terminal.
+    icon: 🖥️
+    link: https://github.com/vectie/moondesk
 ---
