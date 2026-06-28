@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vectie",
-  description: "Vectie open souce organization",
+  description: "Moon Suite: books, runtimes, towns, desktops, stats, robots, and world models.",
   locales: {
     root: {
       label: '简体中文',
@@ -12,7 +12,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: '主页', link: '/' },
-          { text: '介绍', link: '/intro' }
+          { text: 'Moon Suite', link: '/intro' }
         ],
         logo: '/favicon-32x32.png',
         footer: {
@@ -40,7 +40,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: 'Home', link: '/en' },
-          { text: 'Introduction', link: '/en/intro' }
+          { text: 'Moon Suite', link: '/en/intro' }
         ],
         logo: '/favicon-32x32.png',
         footer: {

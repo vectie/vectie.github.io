@@ -1,0 +1,116 @@
+:root {
+  --vp-c-brand-1: #165dff;
+  --vp-c-brand-2: #0f4fd9;
+  --vp-c-brand-3: #0a3fb0;
+  --vp-c-brand-soft: rgba(22, 93, 255, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #165dff 0%, #0f4fd9 38%, #12b886 100%);
+  --vp-home-hero-image-background-image:
+    radial-gradient(circle at 30% 30%, rgba(18, 184, 134, 0.26), transparent 35%),
+    radial-gradient(circle at 70% 25%, rgba(22, 93, 255, 0.28), transparent 38%),
+    radial-gradient(circle at 50% 75%, rgba(244, 175, 35, 0.22), transparent 30%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+.VPNavBarTitle .title {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.VPFeature {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+.VPFeature:hover {
+  border-color: rgba(22, 93, 255, 0.28);
+  box-shadow: 0 22px 48px rgba(22, 93, 255, 0.12);
+}
+
+.vp-doc .moon-hero-image,
+.vp-doc .moon-diagram-image {
+  width: 100%;
+  border-radius: 28px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(245, 247, 250, 0.95));
+}
+
+.vp-doc .moon-section {
+  margin: 32px 0;
+  padding: 28px;
+  border-radius: 28px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 249, 252, 0.96));
+  box-shadow: 0 18px 44px rgba(15, 23, 42, 0.08);
+}
+
+.vp-doc .moon-section h2,
+.vp-doc .moon-section h3 {
+  margin-top: 0;
+}
+
+.vp-doc .moon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.vp-doc .moon-card {
+  padding: 18px;
+  border-radius: 22px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.vp-doc .moon-card h3,
+.vp-doc .moon-card h4 {
+  margin: 0 0 8px;
+}
+
+.vp-doc .moon-kicker {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.vp-doc .moon-lead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(15, 23, 42, 0.82);
+}
+
+.vp-doc .moon-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.vp-doc .moon-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.vp-doc .moon-list li {
+  margin: 8px 0;
+}
+
+@media (max-width: 760px) {
+  .vp-doc .moon-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vp-doc .moon-section {
+    padding: 20px;
+    border-radius: 22px;
+  }
+}

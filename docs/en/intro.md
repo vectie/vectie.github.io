@@ -7,21 +7,19 @@
 
 welcome to [Vectie](https://github.com/vectie) 向量贴贴
 
-you got my job done!
+This is not a single repo story anymore. It is a broad Moon Suite story.
 
-not me~
-
-then where is that person?
-
-on the moon! 🤣🤣🤣
+From durable knowledge to runtime execution, from town orchestration to desktop operators, from observability to robotics and lunar world models, our interests are intentionally wide and the products are starting to connect. The clean umbrella line is this: <strong>an agentic inter-planet system</strong>.
 
 ## Sites
 
 https://vectie.com
 
-## Projects
+<img class="moon-hero-image" src="/generated/moon-suite-hero.svg" alt="Moon Suite hero illustration">
 
-Vectie now has the following hot projects. Think of them as one book, one claw, one whole town, and one desk for the humans.
+## Moon Suite
+
+Vectie now ships a broader public Moon product line rather than a short repo list.
 
 
 | # | Project | Description | Popularity |
@@ -30,6 +28,64 @@ Vectie now has the following hot projects. Think of them as one book, one claw, 
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard that knows who is causing trouble. | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 | 4   | [moondesk](https://github.com/vectie/moondesk) | Human desktop companion for the Moon system, built to inspect MoonBook workspaces, review MoonClaw artifacts, submit work to Moontown, and manage files without dropping into a terminal. | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
+| 5   | [moonstat](https://github.com/vectie/moonstat) | Local proxy, statistics, and observability gateway for provider control, usage, metrics, and suite status. | ![](https://badgen.net/github/stars/vectie/moonstat) <br>![](https://badgen.net/github/forks/vectie/moonstat) |
+| 6   | [moonrobo](https://github.com/vectie/moonrobo) | Physical-world interface layer for robot bridges, safety gates, telemetry evidence, proof sessions, and operator control. | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
+| 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit-native lunar terrain and mission model for world claims, route scoring, trusted dossiers, and live 3D inspection. | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
+
+<div class="moon-section">
+  <span class="moon-kicker">Product Story</span>
+  <h2>What we are actually building</h2>
+  <p class="moon-lead">
+    This is not just an open-source org page. It is the public front door for a MoonBit-native suite that spans knowledge, execution, orchestration, desktop operations, observability, robotics, and simulation-grade world models.
+  </p>
+  <div class="moon-grid">
+    <div class="moon-card">
+      <h3>Knowledge and memory</h3>
+      <p>MoonBook owns durable workspaces, wiki materialization, generated projections, graphs, and compact state contracts.</p>
+    </div>
+    <div class="moon-card">
+      <h3>Execution and reasoning</h3>
+      <p>MoonClaw owns bounded runtime execution, sessions, jobs, tool use, MoonCode flows, and artifact lifecycles.</p>
+    </div>
+    <div class="moon-card">
+      <h3>Governance and scheduling</h3>
+      <p>Moontown owns standing goals, mayor and keeper supervision, cross-book routing, and civic-scale orchestration.</p>
+    </div>
+    <div class="moon-card">
+      <h3>Humans, robots, and signals</h3>
+      <p>Moondesk is the human shell, Moonrobo is the robot boundary, and Moonstat gives the whole system a visible operational surface.</p>
+    </div>
+  </div>
+</div>
+
+<div class="moon-section">
+  <span class="moon-kicker">Broader Goal</span>
+  <h2>Why “inter-planet” is the clean frame</h2>
+  <p class="moon-lead">
+    Because this suite is already stretching beyond documentation or local agent tooling. It reaches into robot interfaces, physical execution evidence, lunar environment models, mission planning, and longer-horizon operating scenes. The boundary is naturally larger than “AI tools.”
+  </p>
+  <p class="moon-lead">
+    If the audience remembers one line instead of seven repo names, it should be this: <strong>An agentic inter-planet system.</strong>
+  </p>
+</div>
+
+<div class="moon-section">
+  <span class="moon-kicker">Broad Interest</span>
+  <h2>Why the suite is intentionally wide</h2>
+  <ul class="moon-list">
+    <li><strong>Agents / LLM:</strong> runtimes, sessions, tool contracts, operator-facing coding surfaces</li>
+    <li><strong>Knowledge / Memory:</strong> executable books, wiki evidence, generated bundles, graphs, state exports</li>
+    <li><strong>Observability:</strong> local proxy routing, provider controls, metrics, usage, suite status</li>
+    <li><strong>Robotics:</strong> safety gates, bridge sidecars, telemetry, proof sessions, teleoperation</li>
+    <li><strong>World models:</strong> lunar terrain, mission scoring, trusted dossiers, live 3D inspection</li>
+  </ul>
+</div>
+
+<div class="moon-section">
+  <span class="moon-kicker">Product Map</span>
+  <h2>How the Moon Suite fits together</h2>
+  <img class="moon-diagram-image" src="/generated/moon-suite-map.svg" alt="Moon Suite product map">
+</div>
 
 ## How to join
 

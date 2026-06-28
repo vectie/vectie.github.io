@@ -7,13 +7,9 @@
 
 welcome to [Vectie](https://github.com/vectie) 向量贴贴
 
-you got my job done!
+This is no longer a single-repo story. It is a Moon Suite story.
 
-not me~
-
-then where is that person?
-
-on the moon! 🤣🤣🤣
+From durable knowledge to runtime execution, from town orchestration to desktop operators, from observability to robotics and lunar world models, our interests are broad on purpose and the products are starting to connect. The clean umbrella line is: **an agentic inter-planet system**.
 
 See the [中文文档](README_CN.md) for Chinese README.
 
@@ -21,9 +17,9 @@ See the [中文文档](README_CN.md) for Chinese README.
 
 https://vectie.com
 
-## Projects
+## Moon Suite
 
-Vectie now has the following hot projects. Think of them as one book, one claw, one whole town, and one desk for the humans.
+Vectie now represents a broader public Moon product line rather than a short featured-repo list.
 
 
 | # | Project | Description | Popularity |
@@ -32,6 +28,19 @@ Vectie now has the following hot projects. Think of them as one book, one claw, 
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard that knows who is causing trouble. | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 | 4   | [moondesk](https://github.com/vectie/moondesk) | Human desktop companion for the Moon system, built to inspect MoonBook workspaces, review MoonClaw artifacts, submit work to Moontown, and manage files without dropping into a terminal. | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
+| 5   | [moonstat](https://github.com/vectie/moonstat) | Local proxy, statistics, and observability gateway for provider control, usage, metrics, and suite status. | ![](https://badgen.net/github/stars/vectie/moonstat) <br>![](https://badgen.net/github/forks/vectie/moonstat) |
+| 6   | [moonrobo](https://github.com/vectie/moonrobo) | Physical-world interface layer for robot bridges, safety gates, telemetry evidence, proof sessions, and operator control. | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
+| 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit-native lunar terrain and mission model for world claims, route scoring, trusted dossiers, and live 3D inspection. | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
+
+## Product View
+
+- `moonbook`: executable books, durable wiki, generated projections, state and knowledge contracts
+- `moonclaw`: runtime execution, sessions, jobs, tool use, MoonCode flows, artifact lifecycle
+- `moontown`: standing goals, mayor and keeper supervision, cross-book routing, civic orchestration
+- `moondesk`: human desktop shell for MoonWiki, MoonCode, workspace inspection, and task submission
+- `moonstat`: suite proxy, provider control, metrics, usage, and operational visibility
+- `moonrobo`: robot gateway, safety boundary, telemetry evidence, proof sessions, teleoperation
+- `moonmoon`: lunar terrain and mission model, trusted evidence dossiers, 3D inspection
 
 ## How to join
 

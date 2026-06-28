@@ -7,21 +7,19 @@
 
 welcome to [Vectie](https://github.com/vectie) 向量贴贴
 
-you got my job done!
+我们在做的不是单个项目，而是一整套 Moon Suite。
 
-not me~
-
-then where is that person?
-
-on the moon! 🤣🤣🤣
+从 durable knowledge 到 runtime，从 town orchestration 到 desktop shell，从 observability 到 robotics，再到 lunar world model，我们的兴趣范围很宽，而且这些方向已经开始互相接上。更干净的总目标可以直接说成一句话：<strong>一个 agentic inter-planet system</strong>。
 
 ## 站点
 
 https://vectie.com
 
-## 项目
+<img class="moon-hero-image" src="/generated/moon-suite-hero.svg" alt="Moon Suite hero illustration">
 
-目前 Vectie 有以下几个重要项目，欢迎 Star ⭐ 关注。一本书、一只爪子、一整个镇子，再加上一张给人类用的桌面。
+## Moon Suite
+
+目前 Vectie 的公开产品线已经不只是“一本书、一只爪子、一整个镇子，再加上一张桌面”，而是一套完整的 Moon 产品矩阵。
 
 | # | 项目 | 描述 | 热度 |
 | --- | --- | --- | --- |
@@ -29,6 +27,64 @@ https://vectie.com
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。 | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。 | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 | 4   | [moondesk](https://github.com/vectie/moondesk) | Moon 系统的人类桌面伙伴，用来查看 MoonBook 工作区、审阅 MoonClaw 产物、向 Moontown 提交任务，以及在不切终端的情况下管理文件。 | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
+| 5   | [moonstat](https://github.com/vectie/moonstat) | Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。 | ![](https://badgen.net/github/stars/vectie/moonstat) <br>![](https://badgen.net/github/forks/vectie/moonstat) |
+| 6   | [moonrobo](https://github.com/vectie/moonrobo) | 面向物理世界的机器人接口层，负责桥接、安全边界、telemetry evidence、proof session 和 operator control。 | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
+| 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit 原生月面地形与任务模型，提供 lunar terrain、mission scoring、trusted dossier 和 live 3D view。 | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
+
+<div class="moon-section">
+  <span class="moon-kicker">产品视角</span>
+  <h2>我们在卖什么</h2>
+  <p class="moon-lead">
+    这不是一个“某某工具集合页”，而是一个围绕知识、执行、调度、桌面、观测、机器人与世界模型逐步成型的 MoonBit-native 产品体系。
+  </p>
+  <div class="moon-grid">
+    <div class="moon-card">
+      <h3>知识与记忆</h3>
+      <p>MoonBook 负责 durable workspace、wiki、generated projection、graph 与 state contract。</p>
+    </div>
+    <div class="moon-card">
+      <h3>执行与推理</h3>
+      <p>MoonClaw 负责 bounded runtime、jobs、tool use、MoonCode session 与 artifact lifecycle。</p>
+    </div>
+    <div class="moon-card">
+      <h3>调度与治理</h3>
+      <p>Moontown 负责 standing goals、mayor/keeper supervision、cross-book routing 与 civic orchestration。</p>
+    </div>
+    <div class="moon-card">
+      <h3>人机与现场</h3>
+      <p>Moondesk 给人类一个桌面入口，Moonrobo 给机器人一个安全边界，Moonstat 给整套系统一个可观测面。</p>
+    </div>
+  </div>
+</div>
+
+<div class="moon-section">
+  <span class="moon-kicker">更大的目标</span>
+  <h2>为什么是 inter-planet</h2>
+  <p class="moon-lead">
+    因为这套系统不只服务于数字内容整理或本地 agent 调度。它正在延伸到机器人接口、物理执行证据、月面环境模型、任务推演与更长期的空间作业现场。Moon Suite 的产品边界天然比“AI 工具箱”更大。
+  </p>
+  <p class="moon-lead">
+    如果要把这件事讲得足够干净，我们希望外界记住的不是七个仓库名，而是这句话：<strong>An agentic inter-planet system.</strong>
+  </p>
+</div>
+
+<div class="moon-section">
+  <span class="moon-kicker">兴趣范围</span>
+  <h2>我们的 broad view</h2>
+  <ul class="moon-list">
+    <li><strong>Agents / LLM：</strong> runtime、sessions、tool contracts、operator-facing MoonCode</li>
+    <li><strong>Knowledge / Memory：</strong> executable books、wiki、evidence、bundle、graph、state</li>
+    <li><strong>Observability：</strong> local proxy、provider control、usage、metrics、suite status</li>
+    <li><strong>Robotics：</strong> safety gate、bridge sidecar、telemetry、proof session、teleoperation</li>
+    <li><strong>World Models：</strong> lunar terrain、mission scoring、trusted dossier、3D inspection</li>
+  </ul>
+</div>
+
+<div class="moon-section">
+  <span class="moon-kicker">产品地图</span>
+  <h2>Moon Suite 怎么拼起来</h2>
+  <img class="moon-diagram-image" src="/generated/moon-suite-map.svg" alt="Moon Suite product map">
+</div>
 
 ## 如何加入
 
