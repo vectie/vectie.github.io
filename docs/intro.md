@@ -9,7 +9,7 @@ welcome to [Vectie](https://github.com/vectie) 向量贴贴
 
 我们在做的不是单个项目，而是一整套 Moon Suite。
 
-从 durable knowledge 到 runtime，从 town orchestration 到 desktop shell，从 observability 到 robotics，再到 lunar world model，我们的兴趣范围很宽，而且这些方向已经开始互相接上。更干净的总目标可以直接说成一句话：<strong>一个 agentic inter-planet system</strong>。
+从 durable knowledge 到 runtime，从 town orchestration 到 desktop shell，从 observability 到 robotics，再到 lunar world model，我们的兴趣范围确实很宽。但这个页面不应该只讲“宽”，而要讲清楚每个仓库各自负责什么。更干净的总目标可以直接说成一句话：<strong>一个 agentic inter-planet system</strong>。
 
 ## 站点
 
@@ -32,52 +32,148 @@ https://vectie.com
 | 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit 原生月面地形与任务模型，提供 lunar terrain、mission scoring、trusted dossier 和 live 3D view。 | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
 
 <div class="moon-section">
-  <span class="moon-kicker">产品视角</span>
-  <h2>我们在卖什么</h2>
+  <span class="moon-kicker">Repo Detail</span>
+  <h2>逐个仓库看，它们分别在做什么</h2>
   <p class="moon-lead">
-    这不是一个“某某工具集合页”，而是一个围绕知识、执行、调度、桌面、观测、机器人与世界模型逐步成型的 MoonBit-native 产品体系。
+    下面这部分不再泛泛而谈，而是尽量贴近各仓库 README 里已经明确成立的产品边界。
   </p>
-  <div class="moon-grid">
-    <div class="moon-card">
-      <h3>知识与记忆</h3>
-      <p>MoonBook 负责 durable workspace、wiki、generated projection、graph 与 state contract。</p>
+  <div class="moon-product-grid">
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">📚</span>
+        <div>
+          <h3>moonbook</h3>
+          <p class="moon-product-tag">可执行书、wiki、站点生成器</p>
+        </div>
+      </div>
+      <p>MoonBook 把书籍渲染、wiki 沉淀、standing watch、知识导出和生成型站点统一到一个工作区里。它是 Moon Suite 的 durable knowledge surface。</p>
+      <ul class="moon-mini-list">
+        <li>book / wiki / site 三层统一工作区</li>
+        <li>ingest、query、review、lint 持续知识维护</li>
+        <li>knowledge bundle、graph、book-state 给其他产品消费</li>
+      </ul>
     </div>
-    <div class="moon-card">
-      <h3>执行与推理</h3>
-      <p>MoonClaw 负责 bounded runtime、jobs、tool use、MoonCode session 与 artifact lifecycle。</p>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🐇</span>
+        <div>
+          <h3>moonclaw</h3>
+          <p class="moon-product-tag">agent runtime、gateway、作业系统</p>
+        </div>
+      </div>
+      <p>MoonClaw 是执行和推理层。它围绕完整的 job runtime 设计，负责 session、jobs、memory、artifact、gateway 与远程 agent 控制。</p>
+      <ul class="moon-mini-list">
+        <li>proposal packet、run workspace、artifact ledger</li>
+        <li>ACP remote agent 与本地 worker 协同</li>
+        <li>MoonCode 原生命令队列、评测回路与 review receipt</li>
+      </ul>
     </div>
-    <div class="moon-card">
-      <h3>调度与治理</h3>
-      <p>Moontown 负责 standing goals、mayor/keeper supervision、cross-book routing 与 civic orchestration。</p>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🌕</span>
+        <div>
+          <h3>moontown</h3>
+          <p class="moon-product-tag">town control plane、常驻调度</p>
+        </div>
+      </div>
+      <p>Moontown 是治理与编排层。它在多个 MoonBook 和 MoonClaw 之上建立一个持久存在的 town，而不是单次脚本式自动化。</p>
+      <ul class="moon-mini-list">
+        <li>standing goals、mayor / keeper、scheduler、health</li>
+        <li>town synthesis、scene dashboard、daemon supervision</li>
+        <li>Wenyu civic protocol 与 final integration portfolio</li>
+      </ul>
     </div>
-    <div class="moon-card">
-      <h3>人机与现场</h3>
-      <p>Moondesk 给人类一个桌面入口，Moonrobo 给机器人一个安全边界，Moonstat 给整套系统一个可观测面。</p>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🖥️</span>
+        <div>
+          <h3>moondesk</h3>
+          <p class="moon-product-tag">桌面入口、工作区与 MoonCode UI</p>
+        </div>
+      </div>
+      <p>Moondesk 是给真实人类用的桌面外壳。它让你能浏览书、查文件、看产物、发 town 请求、开 MoonCode，而不用一整天待在终端里。</p>
+      <ul class="moon-mini-list">
+        <li>workspace explorer、cross-book search、preview、favorites</li>
+        <li>MoonWiki / MoonCode 双模式工作区</li>
+        <li>portable app-tool 导出、LaunchAgent 与原生 bundle</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">📈</span>
+        <div>
+          <h3>moonstat</h3>
+          <p class="moon-product-tag">本地 proxy、metrics、suite discovery</p>
+        </div>
+      </div>
+      <p>Moonstat 是整个套件的接入与观测层。它把 provider 配置、代理、usage、模型目录和 suite status 集中到一个本地网关里。</p>
+      <ul class="moon-mini-list">
+        <li>多 provider 兼容 proxy 与 live 切换</li>
+        <li>usage logs、trend、metrics、circuit breaker、failover</li>
+        <li>Moon Suite manifest / status contract 给兄弟项目读取</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🤖</span>
+        <div>
+          <h3>moonrobo</h3>
+          <p class="moon-product-tag">robot gateway、proof、physical safety</p>
+        </div>
+      </div>
+      <p>Moonrobo 是物理执行边界。它负责 RoboBook、机器人桥接、safety gate、proof session、runtime validation 和执行证据闭环。</p>
+      <ul class="moon-mini-list">
+        <li>MoonClaw 只能通过 Moonrobo 触达机器人动作</li>
+        <li>readiness、loop-proof、proof-session 与 execution feedback</li>
+        <li>telemetry evidence、operator cockpit、teleoperation boundary</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🌔</span>
+        <div>
+          <h3>moonmoon</h3>
+          <p class="moon-product-tag">月面 terrain 与任务世界模型</p>
+        </div>
+      </div>
+      <p>Moonmoon 是月面任务与世界建模层。它现在聚焦 terrain、hazard、mission scoring、trusted square dossier 和 live 3D 检视。</p>
+      <ul class="moon-mini-list">
+        <li>DEM、slope、roughness、hazard classification</li>
+        <li>corridor ranking、energy assessment、route clearance</li>
+        <li>trusted dossier 与 renderer-neutral UI model</li>
+      </ul>
     </div>
   </div>
 </div>
 
 <div class="moon-section">
-  <span class="moon-kicker">更大的目标</span>
-  <h2>为什么是 inter-planet</h2>
+  <span class="moon-kicker">System Shape</span>
+  <h2>七个仓库，不是七个散点</h2>
   <p class="moon-lead">
-    因为这套系统不只服务于数字内容整理或本地 agent 调度。它正在延伸到机器人接口、物理执行证据、月面环境模型、任务推演与更长期的空间作业现场。Moon Suite 的产品边界天然比“AI 工具箱”更大。
+    一个更清楚的系统图是：MoonBook 负责知识，MoonClaw 负责执行，Moontown 负责持续编排，Moondesk 负责人类桌面入口，Moonstat 负责接入与观测，Moonrobo 负责物理世界边界，Moonmoon 负责目标现场的世界模型。
   </p>
-  <p class="moon-lead">
-    如果要把这件事讲得足够干净，我们希望外界记住的不是七个仓库名，而是这句话：<strong>An agentic inter-planet system.</strong>
-  </p>
+  <div class="moon-flow">
+    <div class="moon-flow-step"><strong>Knowledge:</strong> MoonBook 把信息变成 durable workspace</div>
+    <div class="moon-flow-step"><strong>Execution:</strong> MoonClaw 把请求变成 jobs、sessions、artifacts</div>
+    <div class="moon-flow-step"><strong>Continuity:</strong> Moontown 让这些工作长期运行并跨域协同</div>
+    <div class="moon-flow-step"><strong>Operator Surface:</strong> Moondesk 和 Moonstat 让人能看见、能控制、能切换</div>
+    <div class="moon-flow-step"><strong>Field Expansion:</strong> Moonrobo 和 Moonmoon 把系统推进到机器人与月面任务</div>
+  </div>
 </div>
 
 <div class="moon-section">
-  <span class="moon-kicker">兴趣范围</span>
-  <h2>我们的 broad view</h2>
+  <span class="moon-kicker">Broader Goal</span>
+  <h2>为什么现在可以认真说 inter-planet</h2>
   <ul class="moon-list">
-    <li><strong>Agents / LLM：</strong> runtime、sessions、tool contracts、operator-facing MoonCode</li>
-    <li><strong>Knowledge / Memory：</strong> executable books、wiki、evidence、bundle、graph、state</li>
-    <li><strong>Observability：</strong> local proxy、provider control、usage、metrics、suite status</li>
-    <li><strong>Robotics：</strong> safety gate、bridge sidecar、telemetry、proof session、teleoperation</li>
-    <li><strong>World Models：</strong> lunar terrain、mission scoring、trusted dossier、3D inspection</li>
+    <li><strong>Agents / LLM：</strong> runtime、session、MoonCode、tool contracts、provider routing</li>
+    <li><strong>Knowledge / Memory：</strong> executable books、wiki、bundle、graph、state、durable evidence</li>
+    <li><strong>Observability：</strong> local proxy、provider control、usage、metrics、suite manifest</li>
+    <li><strong>Robotics：</strong> readiness、proof session、bridge sidecar、telemetry、teleoperation</li>
+    <li><strong>World Models：</strong> lunar terrain、hazard、mission corridor、trusted dossier、3D inspection</li>
   </ul>
+  <p class="moon-lead">
+    如果最终只记一句话，我们还是希望它是：<strong>An agentic inter-planet system.</strong> 但这次它后面有足够具体的仓库支撑，不只是一个很会飞的标题。
+  </p>
 </div>
 
 <div class="moon-section">

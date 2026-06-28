@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vectie",
-  description: "Moon Suite: books, runtimes, towns, desktops, stats, robots, and world models.",
+  description: "Vectie builds Moon Suite: executable books, agent runtimes, town orchestration, desktop tools, proxy observability, robot gateways, and lunar world models.",
   locales: {
     root: {
       label: '简体中文',

@@ -19,37 +19,37 @@ hero:
 
 features:
   - title: moonbook
-    details: MoonBit 原生 mdBook 实现，包含静态渲染、本地服务、watch 工作流和持久化 wiki 工作区。
+    details: 可执行书与 wiki 工作区，负责静态渲染、知识沉淀、standing watch、生成站点与状态导出。
     icon: 📚
     link: https://github.com/vectie/moonbook
 
   - title: moonclaw
-    details: MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。
+    details: agent 运行时与作业系统，负责 gateway、session、jobs、ACP 远程代理和 MoonCode 执行。
     icon: 🐇
     link: https://github.com/vectie/moonclaw
 
   - title: moontown
-    details: 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。
+    details: town 级控制平面，负责 standing goals、mayor 调度、跨书路由、24/7 daemon 和 civic protocol。
     icon: 🌕
     link: https://github.com/vectie/moontown
 
   - title: moondesk
-    details: Moon 系统的人类桌面伙伴，用来查看 MoonBook 工作区、审阅 MoonClaw 产物、向 Moontown 提交任务，以及在不切终端的情况下管理文件。
+    details: 人类桌面入口，负责工作区浏览、MoonWiki/MoonCode、任务提交、产物审阅和本地桌面打包。
     icon: 🖥️
     link: https://github.com/vectie/moondesk
 
   - title: moonstat
-    details: Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。
+    details: 本地 proxy 与 observability 网关，负责 provider 管理、usage、metrics、suite manifest 和控制台。
     icon: 📈
     link: https://github.com/vectie/moonstat
 
   - title: moonrobo
-    details: Moon Suite 的物理世界接口层，负责机器人桥接、安全边界、遥测证据和 teleoperation 控制。
+    details: 机器人接口层，负责 RoboBook、安全闸门、bridge sidecar、proof session、telemetry 和 operator control。
     icon: 🤖
     link: https://github.com/vectie/moonrobo
 
   - title: moonmoon
-    details: MoonBit 原生月面地形与任务模型，为 lunar mission、terrain analysis 和 trusted dossier 提供世界模型。
+    details: 月面世界模型，负责 terrain、hazard、mission scoring、trusted dossier 与 live 3D inspection。
     icon: 🌔
     link: https://github.com/vectie/moonmoon
 ---
@@ -57,50 +57,157 @@ features:
 <img class="moon-hero-image" src="/generated/moon-suite-hero.svg" alt="Moon Suite hero illustration">
 
 <div class="moon-section">
-  <span class="moon-kicker">Broad View</span>
-  <h2>我们不是单点工具，而是一个 agentic inter-planet system</h2>
+  <span class="moon-kicker">What Ships Today</span>
+  <h2>每个仓库都做一件很具体的事</h2>
   <p class="moon-lead">
-    Vectie 正在把 durable knowledge、agent runtime、town orchestration、desktop shell、observability、robot gateway 和 world model 放进同一套 MoonBit-native 系统里，目标不是做一组零散工具，而是构建一个可跨数字世界与物理现场协同运行的智能体系。
+    这次不讲大词。下面是每个仓库在当前阶段真正负责的产品边界，以及它们怎么一层层拼成 Moon Suite。
   </p>
-  <div class="moon-grid">
-    <div class="moon-card">
-      <h3>从书到行动</h3>
-      <p>MoonBook 负责知识与工作区，MoonClaw 负责执行，Moontown 负责持续调度与跨书协同。</p>
+  <div class="moon-product-grid">
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">📚</span>
+        <div>
+          <h3>moonbook</h3>
+          <p class="moon-product-tag">可执行书、wiki、站点生成</p>
+        </div>
+      </div>
+      <p>MoonBook 是知识层和工作区层。它把 markdown、wiki、review queue、standing watch 和生成站点放进同一个 MoonBit-native 工作流里。</p>
+      <ul class="moon-mini-list">
+        <li>静态书籍渲染、本地 serve/watch</li>
+        <li>持久化 wiki、ingest、query、review、lint</li>
+        <li>知识 bundle、graph、book state 导出</li>
+      </ul>
     </div>
-    <div class="moon-card">
-      <h3>从桌面到现场</h3>
-      <p>Moondesk 把人带进系统，Moonrobo 把机器人带进系统，Moonstat 让整个套件的运行情况可见可管。</p>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🐇</span>
+        <div>
+          <h3>moonclaw</h3>
+          <p class="moon-product-tag">agent runtime、jobs、gateway</p>
+        </div>
+      </div>
+      <p>MoonClaw 是执行层。它不是聊天壳子，而是完整的 job runtime，负责 proposal、session、artifact、memory 和本地/远程 agent 控制。</p>
+      <ul class="moon-mini-list">
+        <li>长任务执行、proposal packet、run workspace</li>
+        <li>ACP remote agent 控制</li>
+        <li>MoonCode 原生命令队列与评测证据</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🌕</span>
+        <div>
+          <h3>moontown</h3>
+          <p class="moon-product-tag">town orchestration、standing goals</p>
+        </div>
+      </div>
+      <p>Moontown 是编排层。它把多个 MoonBook 工作区和多个 MoonClaw 运行时组织成一个 town 控制平面，让任务不再只是一次性触发。</p>
+      <ul class="moon-mini-list">
+        <li>mayor / keeper 角色化调度</li>
+        <li>standing goals、due planning、daemon supervision</li>
+        <li>civic protocol、scene dashboard、town synthesis</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🖥️</span>
+        <div>
+          <h3>moondesk</h3>
+          <p class="moon-product-tag">desktop shell、workspace UI</p>
+        </div>
+      </div>
+      <p>Moondesk 是人类操作面。它给 Moon Suite 一个真正能用的桌面入口，而不是“请继续在终端里勇敢生活”。</p>
+      <ul class="moon-mini-list">
+        <li>工作区浏览、搜索、预览、收藏和 inbox</li>
+        <li>MoonWiki / MoonCode 双工作模式</li>
+        <li>portable app-tool 导出与本地原生打包</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">📈</span>
+        <div>
+          <h3>moonstat</h3>
+          <p class="moon-product-tag">proxy、usage、suite status</p>
+        </div>
+      </div>
+      <p>Moonstat 是观测与接入层。它把 provider 管理、用量、代理、模型目录和套件发现都集中到一个本地网关里。</p>
+      <ul class="moon-mini-list">
+        <li>Codex / Claude / Gemini 等兼容 proxy</li>
+        <li>usage、trend、metrics 与 provider failover</li>
+        <li>Moon Suite manifest 与 status contract</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🤖</span>
+        <div>
+          <h3>moonrobo</h3>
+          <p class="moon-product-tag">robot gateway、安全边界</p>
+        </div>
+      </div>
+      <p>Moonrobo 是物理世界接口层。它不是调度器，也不是模型 runtime；它负责机器人真的动之前，该被证明和被阻止的那一层。</p>
+      <ul class="moon-mini-list">
+        <li>RoboBook、桥接侧车、runtime validation</li>
+        <li>safety gate、proof session、execution replay</li>
+        <li>telemetry evidence 与 teleoperation control</li>
+      </ul>
+    </div>
+    <div class="moon-product-card">
+      <div class="moon-product-head">
+        <span class="moon-product-icon">🌔</span>
+        <div>
+          <h3>moonmoon</h3>
+          <p class="moon-product-tag">lunar terrain、mission model</p>
+        </div>
+      </div>
+      <p>Moonmoon 是世界模型层。它用 MoonBit 做月面 terrain、hazard、mission scoring 和 trusted dossier，不是假装自己是一张好看的海报。</p>
+      <ul class="moon-mini-list">
+        <li>terrain grid、slope、roughness、hazard classification</li>
+        <li>mission corridor、energy、clearance scoring</li>
+        <li>trusted square dossier 与 live 3D 检视</li>
+      </ul>
     </div>
   </div>
 </div>
 
 <div class="moon-section">
-  <span class="moon-kicker">Broader Goal</span>
-  <h2>从数字世界到真实世界，再到更远的现场</h2>
+  <span class="moon-kicker">System Flow</span>
+  <h2>它们是怎么接起来的</h2>
   <p class="moon-lead">
-    我们希望让智能体先在书、任务、城镇、桌面和观测系统里形成稳定协作，再进一步走向机器人、月面任务、空间资源场景与跨环境持续运行。换句话说：这是一个面向未来的 <strong>agentic inter-planet system</strong>。
+    一个更具体的理解方式是：MoonBook 管知识，MoonClaw 管执行，Moontown 管持续调度，Moondesk 管人类入口，Moonstat 管接入与观测，Moonrobo 管物理边界，Moonmoon 管任务现场的世界模型。
   </p>
+  <div class="moon-flow">
+    <div class="moon-flow-step"><strong>1.</strong> MoonBook 沉淀知识、状态、证据和工作区</div>
+    <div class="moon-flow-step"><strong>2.</strong> MoonClaw 把请求编译成 jobs、sessions 和 artifacts</div>
+    <div class="moon-flow-step"><strong>3.</strong> Moontown 让这些工作持续运行，而不是做完就散</div>
+    <div class="moon-flow-step"><strong>4.</strong> Moondesk 和 Moonstat 让人类能看见、能控制、能切换 provider</div>
+    <div class="moon-flow-step"><strong>5.</strong> Moonrobo 和 Moonmoon 把系统推向机器人现场和月面任务环境</div>
+  </div>
 </div>
 
 <div class="moon-section">
-  <span class="moon-kicker">Moon Scope</span>
-  <h2>我们的兴趣范围很宽，而且是故意的</h2>
+  <span class="moon-kicker">Broader Goal</span>
+  <h2>更大的边界，应该讲得更干净</h2>
+  <p class="moon-lead">
+    现在说 “An agentic inter-planet system” 才合理，因为这些仓库已经分别覆盖知识、执行、治理、桌面、代理、机器人和月面模型。这个边界不是一句口号撑起来的，是仓库边界一层一层堆出来的。
+  </p>
   <div class="moon-grid">
     <div class="moon-card">
       <h3>Agents / LLM</h3>
-      <p>从 bounded runtime、tool use、session contract 到 operator-facing MoonCode surface。</p>
+      <p>runtime、sessions、tool contracts、MoonCode、provider routing。</p>
     </div>
     <div class="moon-card">
       <h3>Knowledge / Memory</h3>
-      <p>从 executable book、wiki ingest、standing watch 到 graph、bundle、state contract。</p>
+      <p>book、wiki、bundle、graph、state、durable evidence。</p>
     </div>
     <div class="moon-card">
-      <h3>Robotics / Physical World</h3>
-      <p>从 safety gate、telemetry、proof session 到 RoboBook evidence loop。</p>
+      <h3>Robotics</h3>
+      <p>readiness、proof session、bridge sidecar、telemetry 和 replay。</p>
     </div>
     <div class="moon-card">
-      <h3>Simulation / World Models</h3>
-      <p>从 lunar terrain、mission scoring 到 trusted square dossier 和 live 3D view。</p>
+      <h3>World Models</h3>
+      <p>lunar terrain、hazard、mission corridor、trusted dossier。</p>
     </div>
   </div>
 </div>
