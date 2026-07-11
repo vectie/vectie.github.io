@@ -27,7 +27,7 @@ https://vectie.com
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。 | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。 | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 | 4   | [moondesk](https://github.com/vectie/moondesk) | Moon 系统的人类桌面伙伴，用来查看 MoonBook 工作区、审阅 MoonClaw 产物、向 Moontown 提交任务，以及在不切终端的情况下管理文件。 | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
-| 5   | [moonstat](https://github.com/vectie/moonstat) | Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。 | ![](https://badgen.net/github/stars/vectie/moonstat) <br>![](https://badgen.net/github/forks/vectie/moonstat) |
+| 5   | [moongate](https://github.com/vectie/moongate) | Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。 | ![](https://badgen.net/github/stars/vectie/moongate) <br>![](https://badgen.net/github/forks/vectie/moongate) |
 | 6   | [moonrobo](https://github.com/vectie/moonrobo) | 面向物理世界的机器人接口层，负责桥接、安全边界、telemetry evidence、proof session 和 operator control。 | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
 | 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit 原生月面地形与任务模型，提供 lunar terrain、mission scoring、trusted dossier 和 live 3D view。 | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
 
@@ -102,11 +102,11 @@ https://vectie.com
       <div class="moon-product-head">
         <span class="moon-product-icon">📈</span>
         <div>
-          <h3>moonstat</h3>
+          <h3>moongate</h3>
           <p class="moon-product-tag">本地 proxy、metrics、suite discovery</p>
         </div>
       </div>
-      <p>Moonstat 是整个套件的接入与观测层。它把 provider 配置、代理、usage、模型目录和 suite status 集中到一个本地网关里。</p>
+      <p>MoonGate 是整个套件的接入与观测层。它把 provider 配置、代理、usage、模型目录和 suite status 集中到一个本地网关里。</p>
       <ul class="moon-mini-list">
         <li>多 provider 兼容 proxy 与 live 切换</li>
         <li>usage logs、trend、metrics、circuit breaker、failover</li>
@@ -150,13 +150,13 @@ https://vectie.com
   <span class="moon-kicker">System Shape</span>
   <h2>七个仓库，不是七个散点</h2>
   <p class="moon-lead">
-    一个更清楚的系统图是：MoonBook 负责知识，MoonClaw 负责执行，Moontown 负责持续编排，Moondesk 负责人类桌面入口，Moonstat 负责接入与观测，Moonrobo 负责物理世界边界，Moonmoon 负责目标现场的世界模型。
+    一个更清楚的系统图是：MoonBook 负责知识，MoonClaw 负责执行，Moontown 负责持续编排，Moondesk 负责人类桌面入口，MoonGate 负责接入与观测，Moonrobo 负责物理世界边界，Moonmoon 负责目标现场的世界模型。
   </p>
   <div class="moon-flow">
     <div class="moon-flow-step"><strong>Knowledge:</strong> MoonBook 把信息变成 durable workspace</div>
     <div class="moon-flow-step"><strong>Execution:</strong> MoonClaw 把请求变成 jobs、sessions、artifacts</div>
     <div class="moon-flow-step"><strong>Continuity:</strong> Moontown 让这些工作长期运行并跨域协同</div>
-    <div class="moon-flow-step"><strong>Operator Surface:</strong> Moondesk 和 Moonstat 让人能看见、能控制、能切换</div>
+    <div class="moon-flow-step"><strong>Operator Surface:</strong> Moondesk 和 MoonGate 让人能看见、能控制、能切换</div>
     <div class="moon-flow-step"><strong>Field Expansion:</strong> Moonrobo 和 Moonmoon 把系统推进到机器人与月面任务</div>
   </div>
 </div>

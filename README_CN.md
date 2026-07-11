@@ -25,7 +25,7 @@ https://vectie.com
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。 | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。 | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 | 4   | [moondesk](https://github.com/vectie/moondesk) | Moon 系统的人类桌面伙伴，用来查看 MoonBook 工作区、审阅 MoonClaw 产物、向 Moontown 提交任务，以及在不切终端的情况下管理文件。 | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
-| 5   | [moonstat](https://github.com/vectie/moonstat) | Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。 | ![](https://badgen.net/github/stars/vectie/moonstat) <br>![](https://badgen.net/github/forks/vectie/moonstat) |
+| 5   | [moongate](https://github.com/vectie/moongate) | Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。 | ![](https://badgen.net/github/stars/vectie/moongate) <br>![](https://badgen.net/github/forks/vectie/moongate) |
 | 6   | [moonrobo](https://github.com/vectie/moonrobo) | 面向物理世界的机器人接口层，负责桥接、安全边界、telemetry evidence、proof session 和 operator control。 | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
 | 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit 原生月面地形与任务模型，提供 lunar terrain、mission scoring、trusted dossier 和 live 3D view。 | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
 
@@ -35,7 +35,7 @@ https://vectie.com
 - `moonclaw`：runtime execution、sessions、jobs、tool use、MoonCode flow、artifact lifecycle
 - `moontown`：standing goals、mayor/keeper supervision、cross-book routing、civic orchestration
 - `moondesk`：给人类使用的 desktop shell，承载 MoonWiki、MoonCode、workspace inspection 和 task submission
-- `moonstat`：suite proxy、provider control、metrics、usage 和 operational visibility
+- `moongate`：suite proxy、provider control、metrics、usage 和 operational visibility
 - `moonrobo`：robot gateway、安全边界、telemetry evidence、proof session、teleoperation
 - `moonmoon`：月面地形与任务模型、trusted evidence dossier、3D inspection
 

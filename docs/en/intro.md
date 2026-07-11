@@ -28,7 +28,7 @@ Vectie now ships a broader public Moon product line rather than a short repo lis
 | 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
 | 3   | [moontown](https://github.com/vectie/moontown) | Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard that knows who is causing trouble. | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
 | 4   | [moondesk](https://github.com/vectie/moondesk) | Human desktop companion for the Moon system, built to inspect MoonBook workspaces, review MoonClaw artifacts, submit work to Moontown, and manage files without dropping into a terminal. | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
-| 5   | [moonstat](https://github.com/vectie/moonstat) | Local proxy, statistics, and observability gateway for provider control, usage, metrics, and suite status. | ![](https://badgen.net/github/stars/vectie/moonstat) <br>![](https://badgen.net/github/forks/vectie/moonstat) |
+| 5   | [moongate](https://github.com/vectie/moongate) | Local proxy, statistics, and observability gateway for provider control, usage, metrics, and suite status. | ![](https://badgen.net/github/stars/vectie/moongate) <br>![](https://badgen.net/github/forks/vectie/moongate) |
 | 6   | [moonrobo](https://github.com/vectie/moonrobo) | Physical-world interface layer for robot bridges, safety gates, telemetry evidence, proof sessions, and operator control. | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
 | 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit-native lunar terrain and mission model for world claims, route scoring, trusted dossiers, and live 3D inspection. | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
 
@@ -103,11 +103,11 @@ Vectie now ships a broader public Moon product line rather than a short repo lis
       <div class="moon-product-head">
         <span class="moon-product-icon">📈</span>
         <div>
-          <h3>moonstat</h3>
+          <h3>moongate</h3>
           <p class="moon-product-tag">Local proxy, metrics, suite discovery</p>
         </div>
       </div>
-      <p>Moonstat is the suite access and observability layer. It centralizes provider configuration, proxying, usage accounting, model catalogs, and suite-status discovery in one local gateway.</p>
+      <p>MoonGate is the suite access and observability layer. It centralizes provider configuration, proxying, usage accounting, model catalogs, and suite-status discovery in one local gateway.</p>
       <ul class="moon-mini-list">
         <li>Multi-provider compatibility and live switching</li>
         <li>Usage logs, trends, metrics, circuit breakers, and failover</li>
@@ -151,13 +151,13 @@ Vectie now ships a broader public Moon product line rather than a short repo lis
   <span class="moon-kicker">System Shape</span>
   <h2>Seven repos, not seven disconnected dots</h2>
   <p class="moon-lead">
-    The clean system picture is this: MoonBook owns knowledge, MoonClaw owns execution, Moontown owns continuity, Moondesk owns the human shell, Moonstat owns access and observability, Moonrobo owns the physical boundary, and Moonmoon owns the world model of the target field.
+    The clean system picture is this: MoonBook owns knowledge, MoonClaw owns execution, Moontown owns continuity, Moondesk owns the human shell, MoonGate owns access and observability, Moonrobo owns the physical boundary, and Moonmoon owns the world model of the target field.
   </p>
   <div class="moon-flow">
     <div class="moon-flow-step"><strong>Knowledge:</strong> MoonBook turns information into a durable workspace</div>
     <div class="moon-flow-step"><strong>Execution:</strong> MoonClaw turns requests into jobs, sessions, and artifacts</div>
     <div class="moon-flow-step"><strong>Continuity:</strong> Moontown keeps those loops running across time and domains</div>
-    <div class="moon-flow-step"><strong>Operator Surface:</strong> Moondesk and Moonstat keep humans informed, in control, and connected</div>
+    <div class="moon-flow-step"><strong>Operator Surface:</strong> Moondesk and MoonGate keep humans informed, in control, and connected</div>
     <div class="moon-flow-step"><strong>Field Expansion:</strong> Moonrobo and Moonmoon extend the suite into robotics and lunar mission environments</div>
   </div>
 </div>
