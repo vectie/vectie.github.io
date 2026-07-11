@@ -38,10 +38,10 @@ features:
     icon: 🖥️
     link: https://github.com/vectie/moondesk
 
-  - title: moonstat
+  - title: moongate
     details: 本地 proxy 与 observability 网关，负责 provider 管理、usage、metrics、suite manifest 和控制台。
     icon: 📈
-    link: https://github.com/vectie/moonstat
+    link: https://github.com/vectie/moongate
 
   - title: moonrobo
     details: 机器人接口层，负责 RoboBook、安全闸门、bridge sidecar、proof session、telemetry 和 operator control。
@@ -127,11 +127,11 @@ features:
       <div class="moon-product-head">
         <span class="moon-product-icon">📈</span>
         <div>
-          <h3>moonstat</h3>
+          <h3>moongate</h3>
           <p class="moon-product-tag">proxy、usage、suite status</p>
         </div>
       </div>
-      <p>Moonstat 是观测与接入层。它把 provider 管理、用量、代理、模型目录和套件发现都集中到一个本地网关里。</p>
+      <p>MoonGate 是观测与接入层。它把 provider 管理、用量、代理、模型目录和套件发现都集中到一个本地网关里。</p>
       <ul class="moon-mini-list">
         <li>Codex / Claude / Gemini 等兼容 proxy</li>
         <li>usage、trend、metrics 与 provider failover</li>
@@ -175,13 +175,13 @@ features:
   <span class="moon-kicker">System Flow</span>
   <h2>它们是怎么接起来的</h2>
   <p class="moon-lead">
-    一个更具体的理解方式是：MoonBook 管知识，MoonClaw 管执行，Moontown 管持续调度，Moondesk 管人类入口，Moonstat 管接入与观测，Moonrobo 管物理边界，Moonmoon 管任务现场的世界模型。
+    一个更具体的理解方式是：MoonBook 管知识，MoonClaw 管执行，Moontown 管持续调度，Moondesk 管人类入口，MoonGate 管接入与观测，Moonrobo 管物理边界，Moonmoon 管任务现场的世界模型。
   </p>
   <div class="moon-flow">
     <div class="moon-flow-step"><strong>1.</strong> MoonBook 沉淀知识、状态、证据和工作区</div>
     <div class="moon-flow-step"><strong>2.</strong> MoonClaw 把请求编译成 jobs、sessions 和 artifacts</div>
     <div class="moon-flow-step"><strong>3.</strong> Moontown 让这些工作持续运行，而不是做完就散</div>
-    <div class="moon-flow-step"><strong>4.</strong> Moondesk 和 Moonstat 让人类能看见、能控制、能切换 provider</div>
+    <div class="moon-flow-step"><strong>4.</strong> Moondesk 和 MoonGate 让人类能看见、能控制、能切换 provider</div>
     <div class="moon-flow-step"><strong>5.</strong> Moonrobo 和 Moonmoon 把系统推向机器人现场和月面任务环境</div>
   </div>
 </div>

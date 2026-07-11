@@ -47,7 +47,7 @@
   <g>
     <rect x="570" y="508" width="260" height="146" rx="24" fill="#EEF8FF" stroke="#B8DDF8"/>
     <text x="602" y="560" fill="#0284C7" font-size="18" font-family="Arial, sans-serif" font-weight="700">Observability</text>
-    <text x="602" y="602" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">Moonstat</text>
+    <text x="602" y="602" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">MoonGate</text>
     <text x="602" y="636" fill="#475569" font-size="20" font-family="Arial, sans-serif">Proxy routing, provider control,</text>
     <text x="602" y="664" fill="#475569" font-size="20" font-family="Arial, sans-serif">usage, metrics, suite status</text>
   </g>

@@ -38,10 +38,10 @@ features:
     icon: 🖥️
     link: https://github.com/vectie/moondesk
 
-  - title: moonstat
+  - title: moongate
     details: Local proxy and observability gateway for provider management, usage, metrics, suite manifest, and operator console.
     icon: 📈
-    link: https://github.com/vectie/moonstat
+    link: https://github.com/vectie/moongate
 
   - title: moonrobo
     details: Robot interface layer for RoboBook, safety gates, bridge sidecars, proof sessions, telemetry, and operator control.
@@ -127,11 +127,11 @@ features:
       <div class="moon-product-head">
         <span class="moon-product-icon">📈</span>
         <div>
-          <h3>moonstat</h3>
+          <h3>moongate</h3>
           <p class="moon-product-tag">Proxy, usage, suite status</p>
         </div>
       </div>
-      <p>Moonstat is the observability and access layer. It centralizes provider management, local proxying, model catalogs, usage accounting, and suite discovery into one gateway.</p>
+      <p>MoonGate is the observability and access layer. It centralizes provider management, local proxying, model catalogs, usage accounting, and suite discovery into one gateway.</p>
       <ul class="moon-mini-list">
         <li>Codex, Claude, Gemini, and related compatibility paths</li>
         <li>Usage, trends, metrics, and provider failover controls</li>
@@ -175,13 +175,13 @@ features:
   <span class="moon-kicker">System Flow</span>
   <h2>How the layers connect</h2>
   <p class="moon-lead">
-    A more useful framing is operational: MoonBook owns knowledge, MoonClaw owns execution, Moontown owns continuity, Moondesk owns the human shell, Moonstat owns access and observability, Moonrobo owns the physical boundary, and Moonmoon owns the field model.
+    A more useful framing is operational: MoonBook owns knowledge, MoonClaw owns execution, Moontown owns continuity, Moondesk owns the human shell, MoonGate owns access and observability, Moonrobo owns the physical boundary, and Moonmoon owns the field model.
   </p>
   <div class="moon-flow">
     <div class="moon-flow-step"><strong>1.</strong> MoonBook stores knowledge, state, evidence, and workspaces</div>
     <div class="moon-flow-step"><strong>2.</strong> MoonClaw turns requests into jobs, sessions, and artifacts</div>
     <div class="moon-flow-step"><strong>3.</strong> Moontown keeps those loops running over time</div>
-    <div class="moon-flow-step"><strong>4.</strong> Moondesk and Moonstat keep humans informed, in control, and able to switch providers</div>
+    <div class="moon-flow-step"><strong>4.</strong> Moondesk and MoonGate keep humans informed, in control, and able to switch providers</div>
     <div class="moon-flow-step"><strong>5.</strong> Moonrobo and Moonmoon extend the system toward robotics and lunar missions</div>
   </div>
 </div>
