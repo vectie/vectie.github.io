@@ -43,9 +43,6 @@ jobs:
       - name: Verify MoonBit and Rabbita site
         run: pnpm test
 
-      - name: Preserve custom domain
-        run: echo "vectie.com" > dist/client/CNAME
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
