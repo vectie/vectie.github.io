@@ -13,6 +13,7 @@ using @html {
   h3,
   header,
   i,
+  img,
   main_,
   nav,
   p,

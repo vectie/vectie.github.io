@@ -92,18 +92,22 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
       div(class="hero-copy", [
         p(class="eyebrow", "AGENT OS · OPC OS · OPEN SOURCE"),
         h1(
+          class="hero-title hero-title-\{if lang == Zh { "zh" } else { "en" }}",
           if lang == Zh {
-            [span("让软件，"), em("成为组织。")]
+            [span("软件的最高目的"), em("是自举自进化")]
           } else {
-            [span("Let software "), em("become the company.")]
+            [
+              span("Software’s highest purpose"),
+              em("is to bootstrap and evolve itself."),
+            ]
           },
         ),
         p(
           class="hero-lead",
           if lang == Zh {
-            "Moonsuite 是为一人公司构建的智能体操作系统。它让智能体不只使用软件，也能感知软件、扩展软件、验证结果，并把被证明有效的能力写回组织。"
+            "Moonsuite 月栖智能体套件，是一套为 One-Person Company 而生的 Agent OS。当智能体感知软件、决定调用还是重写、超预期则固化能力、低于预期则回滚——闭环一旦闭合，软件开始进化，组织也是。"
           } else {
-            "Moonsuite is the agent operating system for the one-person company. Agents do not merely use software—they sense it, extend it, verify outcomes, and write proven capability back into the organization."
+            "Moonsuite is the Agent OS built for the One-Person Company. An agent senses software, chooses whether to use or rewrite it, claims capability when results exceed expectations, and rolls back when they do not. Close the loop, and software—and the organization—begins to evolve."
           },
         ),
         div(class="hero-actions", [
@@ -181,9 +185,9 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
         ),
         blockquote(
           if lang == Zh {
-            "未来的软件不会等待下一次版本发布。它会观察自己、决定自己缺什么，并在证据允许时改写自己。"
+            "让软件成为组织：会感知，会行动，会记忆，也会在证据允许时改写自己。"
           } else {
-            "Future software will not wait for the next release. It will observe itself, decide what it lacks, and rewrite itself when evidence permits."
+            "Let software become the organization: able to sense, act, remember, and rewrite itself when evidence permits."
           },
         ),
       ]),
@@ -362,7 +366,7 @@ fn interaction_view(lang : Lang) -> @rabbita.Html {
       ]),
     )
   }
-  section(class="interaction-section section-pad", [
+  section(id="interaction", class="interaction-section section-pad", [
     div(class="section-heading compact-heading", [
       p(class="section-index", "03 / INTERACTION"),
       div([
@@ -460,7 +464,7 @@ fn china_section(lang : Lang) -> @rabbita.Html {
 
 ///|
 fn zpc_section(lang : Lang) -> @rabbita.Html {
-  section(class="zpc-section", [
+  section(id="zpc", class="zpc-section", [
     p(class="eyebrow", "ONE MORE THING"),
     div(class="zpc-zero", "0"),
     div(class="zpc-copy", [

@@ -99,6 +99,16 @@ fn nav_view(
           },
         ),
         a(
+          href="/?lang=\{suffix}#interaction",
+          escape=true,
+          if lang == Zh {
+            "协作"
+          } else {
+            "Flow"
+          },
+        ),
+        a(href="/?lang=\{suffix}#zpc", escape=true, "ZPC"),
+        a(
           href="/plan/?lang=\{suffix}",
           escape=true,
           if lang == Zh {
@@ -234,38 +244,78 @@ fn short_name(name : String) -> String {
 }
 
 ///|
+fn product_capture(product : Product) -> String {
+  match product.slug {
+    "moontown" => "/shots/moontown.png"
+    "moongate" => "/shots/moongate.png"
+    "moonmoon" => "/shots/moonmoon.png"
+    _ => ""
+  }
+}
+
+///|
+fn capture_label(product : Product) -> String {
+  match product.slug {
+    "moontown" => "REPOSITORY ASSETS · SCENE COMPOSITION"
+    "moongate" => "REAL CAPTURE · OPERATOR CONSOLE"
+    "moonmoon" => "REAL CAPTURE · MISSION REHEARSAL"
+    _ => "FEATURE VIEW"
+  }
+}
+
+///|
 fn product_visual(product : Product, large? : Bool = false) -> @rabbita.Html {
-  let (label, title, lanes) = visual_copy(product.visual)
-  let lane_views : Array[@rabbita.Html] = []
-  for index, lane in lanes {
-    lane_views.push(
-      div([
-        span(two_digit(index + 1)),
-        b(lane),
-        i(
-          attrs=@html.Attrs::build().style_attr("width: \{48 + index * 13}%"),
-          "",
+  let capture = product_capture(product)
+  if capture != "" {
+    div(
+      class="product-visual real-capture\{if large { " visual-large" } else { "" }}",
+      [
+        div(class="visual-top", [
+          span(capture_label(product)),
+          span(class="visual-live", "● VERIFIED SOURCE"),
+        ]),
+        img(
+          class="capture-image",
+          src=capture,
+          alt="\{product.name} product interface",
+          loading="lazy",
+          decoding="async",
         ),
-      ]),
+      ],
+    )
+  } else {
+    let (label, title, lanes) = visual_copy(product.visual)
+    let lane_views : Array[@rabbita.Html] = []
+    for index, lane in lanes {
+      lane_views.push(
+        div([
+          span(two_digit(index + 1)),
+          b(lane),
+          i(
+            attrs=@html.Attrs::build().style_attr("width: \{48 + index * 13}%"),
+            "",
+          ),
+        ]),
+      )
+    }
+    div(
+      class="product-visual visual-\{product.visual}\{if large { " visual-large" } else { "" }}",
+      attrs=@html.Attrs::build()
+        .role("img")
+        .aria_label("\{product.name}: \{title} feature snapshot"),
+      [
+        div(class="visual-top", [
+          span(label),
+          span(class="visual-live", "● FEATURE EVIDENCE"),
+        ]),
+        div(class="visual-world", [
+          div(class="visual-rings", [i(""), i(""), i("")]),
+          div(class="visual-core", [span(short_name(product.name)), b(title)]),
+        ]),
+        div(class="visual-lanes", lane_views),
+      ],
     )
   }
-  div(
-    class="product-visual visual-\{product.visual}\{if large { " visual-large" } else { "" }}",
-    attrs=@html.Attrs::build()
-      .role("img")
-      .aria_label("\{product.name}: \{title} feature snapshot"),
-    [
-      div(class="visual-top", [
-        span(label),
-        span(class="visual-live", "● LIVE EVIDENCE"),
-      ]),
-      div(class="visual-world", [
-        div(class="visual-rings", [i(""), i(""), i("")]),
-        div(class="visual-core", [span(short_name(product.name)), b(title)]),
-      ]),
-      div(class="visual-lanes", lane_views),
-    ],
-  )
 }
 
 ///|

@@ -12,7 +12,7 @@ test "every public route resolves to the intended product" {
       assert_eq(product.name, "MoonBook")
       assert_eq(
         product.philosophy.get(Zh),
-        "记忆的价值不在保存，而在持续缩小信息差、认知差与执行差。",
+        "记忆不是数据库，而是智能体与世界之间的三本账：信息差、认知差、执行差。",
       )
     }
     None => fail("moonbook must be routable")
