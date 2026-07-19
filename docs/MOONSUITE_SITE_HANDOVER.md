@@ -7,7 +7,7 @@
 | 比较项 | 采用版本 | 原因 |
 | --- | --- | --- |
 | 技术架构 | 现有 MoonBit + Rabbita | 与产品技术主张一致，双语、路由、交互闭环和静态部署已完整验证 |
-| 首页主标题 | Kimi 方向 | “软件的最高目的，是自举自进化”比“让软件成为组织”更锋利，也更贴合核心论点 |
+| 首页主标题 | 所有者确认方向 | “软件自我进化，组织随之生长。”把产品能力与组织结果放进同一条因果链；英文为 “Software that evolves itself—and the organization with it.” |
 | 辅助论点 | 合并 | “让软件成为组织”保留为第二层 manifesto，形成“目的 → 组织结果”的叙事顺序 |
 | 产品一句话哲学 | 所有者确认的混合版本 | 最终选择为 `Claw-B, Book-C, Town-B, Flow-C, Desk-A, Gate-A, Proj-C, Robo-C, Moon-A, Mold-A, Cast-C, Find-A`；完整决策记录见 `docs/PHILOSOPHY_OPTIONS.md` |
 | 产品正文 | 现有版本为底 | 现有版本有中英双语、边界声明、OPC 作用和成熟度说明，避免只宣传不交代证据 |

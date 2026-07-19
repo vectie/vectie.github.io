@@ -18,7 +18,13 @@ test('the static shell loads the compiled Rabbita application', () => {
   assert.match(html, /assets\/index-[^"']+\.js/)
   assert.match(html, /MOONBIT · RABBITA/)
   const assets = fs.readdirSync('dist/client/assets')
-  assert.equal(assets.some((name) => name.includes('rabbita_main-entry')), true)
+  const rabbitaEntry = assets.find((name) => name.includes('rabbita_main-entry'))
+  assert.notEqual(rabbitaEntry, undefined)
+  const app = fs.readFileSync(`dist/client/assets/${rabbitaEntry}`, 'utf8')
+  assert.match(app, /软件自我进化，/)
+  assert.match(app, /组织随之生长。/)
+  assert.match(app, /Software that evolves itself—/)
+  assert.match(app, /and the organization with it\./)
 })
 
 test('branch-based GitHub Pages receives the compiled root artifact', () => {

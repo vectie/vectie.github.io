@@ -94,11 +94,11 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
         h1(
           class="hero-title hero-title-\{if lang == Zh { "zh" } else { "en" }}",
           if lang == Zh {
-            [span("软件的最高目的"), em("是自举自进化")]
+            [span("软件自我进化，"), em("组织随之生长。")]
           } else {
             [
-              span("Software’s highest purpose"),
-              em("is to bootstrap and evolve itself."),
+              span("Software that evolves itself—"),
+              em("and the organization with it."),
             ]
           },
         ),
