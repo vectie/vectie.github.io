@@ -59,6 +59,9 @@ struct Product {
 struct LoopStep {
   title : Bilingual
   copy : Bilingual
+  state : Bilingual
+  evidence : Bilingual
+  capability : String
 }
 
 ///|

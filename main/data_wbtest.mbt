@@ -85,3 +85,16 @@ test "owner-selected product philosophies remain stable" {
 test "unknown product routes remain explicit" {
   assert_true(product_by_slug("not-a-moon") is None)
 }
+
+///|
+test "the evolution loop leaves a verified capability for the next cycle" {
+  let steps = loop_steps()
+  assert_eq(steps.length(), 5)
+  assert_eq(steps[0].capability, "research_brief@v12")
+  assert_eq(steps[2].capability, "research_brief@v13-rc1")
+  assert_eq(steps[4].capability, "research_brief@v13")
+  assert_eq(
+    steps[4].evidence.get(En),
+    "Next-cycle baseline: research_brief@v13",
+  )
+}

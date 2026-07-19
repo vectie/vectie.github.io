@@ -26,6 +26,12 @@ test('the static shell loads the compiled Rabbita application', () => {
   assert.match(app, /组织随之生长。/)
   assert.match(app, /Software that evolves itself—/)
   assert.match(app, /and the organization with it\./)
+  assert.match(app, /One task ends\. The next starts more capable\./)
+  assert.match(app, /The loop changes not only the result of one task/)
+  assert.match(app, /闭环改变的不是一次任务结果/)
+  assert.match(app, /REWARD \/ PROMOTE/)
+  assert.match(app, /REVERT \/ RETAIN GAP/)
+  assert.match(app, /research_brief@v13/)
 })
 
 test('branch-based GitHub Pages receives the compiled root artifact', () => {

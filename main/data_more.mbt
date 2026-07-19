@@ -356,24 +356,56 @@ fn loop_steps() -> Array[LoopStep] {
       copy: bi(
         "读取软件、组织状态、记忆与真实反馈。", "Read software, organizational state, memory, and real feedback.",
       ),
+      state: bi(
+        "扫描现有研究工作流，发现它能总结来源，却不能记录相互矛盾的证据。",
+        "Scan the current research workflow. It can summarize sources, but cannot preserve contradictory evidence.",
+      ),
+      evidence: bi(
+        "能力缺口：矛盾证据账本", "Capability gap: contradiction ledger",
+      ),
+      capability: "research_brief@v12",
     },
     {
       title: bi("决策", "Decide"),
       copy: bi(
         "判断使用现有能力，还是触发代码扩展能力。", "Choose existing capability or trigger code to extend it.",
       ),
+      state: bi(
+        "复用四项已有能力；只为缺失的证据校验器触发 MoonCode，而不是重做整条流程。",
+        "Reuse four existing capabilities; trigger MoonCode only for the missing evidence checker instead of rebuilding the workflow.",
+      ),
+      evidence: bi(
+        "决策：复用 4 项 · 新增 1 项", "Decision: reuse 4 · create 1",
+      ),
+      capability: "v12 + planned patch",
     },
     {
       title: bi("执行", "Act"),
       copy: bi(
         "通过有界工具、工作流与权限完成任务。", "Act through bounded tools, workflows, and authority.",
       ),
+      state: bi(
+        "生成候选能力 evidence-gap-checker@v0.1，在隔离权限和固定预算内处理 28 个来源。",
+        "Create candidate capability evidence-gap-checker@v0.1 and process 28 sources within bounded permissions and budget.",
+      ),
+      evidence: bi(
+        "候选变更：可测试 · 可撤销", "Candidate change: testable · reversible",
+      ),
+      capability: "research_brief@v13-rc1",
     },
     {
       title: bi("验证", "Verify"),
       copy: bi(
         "把结果与验收、证据、安全和成本基线比较。", "Compare outcomes with acceptance, evidence, safety, and cost baselines.",
       ),
+      state: bi(
+        "按预先声明的契约评分：引用覆盖、矛盾处理、交付时间与权限边界必须同时通过。",
+        "Score against a predeclared contract: citation coverage, contradiction handling, delivery time, and authority boundaries must all pass.",
+      ),
+      evidence: bi(
+        "示例结果：91 / 100 · 门槛 85", "Illustrative result: 91 / 100 · threshold 85",
+      ),
+      capability: "v13-rc1 under evaluation",
     },
     {
       title: bi("强化 / 回滚", "Reward / revert"),
@@ -381,6 +413,14 @@ fn loop_steps() -> Array[LoopStep] {
         "超预期则固化能力；低于预期则回滚并保留学习差距。",
         "Consolidate overperformance; revert underperformance and retain the learning gap.",
       ),
+      state: bi(
+        "通过则把候选能力、测试与证据写入系统；未通过则恢复 v12，但仍保存失败原因供下一轮使用。",
+        "On pass, write the candidate, tests, and evidence into the system. On failure, restore v12 but retain the failure gap for the next attempt.",
+      ),
+      evidence: bi(
+        "下一轮基线：research_brief@v13", "Next-cycle baseline: research_brief@v13",
+      ),
+      capability: "research_brief@v13",
     },
   ]
 }

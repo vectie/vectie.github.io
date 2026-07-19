@@ -14,12 +14,23 @@
 | 产品正文 | 现有版本为底 | 现有版本有中英双语、边界声明、OPC 作用和成熟度说明，避免只宣传不交代证据 |
 | 图片 | Kimi 资产 + 本地真实构建取证 | 已从 6 个本地产品构建补图；目前 12 款产品中 9 款有 source-captured 证据，3 款使用明确标注的证据视图 |
 | 导航与页面组织 | 合并 | 增加协作流与 ZPC 入口，同时保留中国市场计划 |
+| 自进化闭环 | 可交互的概念演示 | 用一个 OPC 周报任务展示 `research_brief@v12 → v13-rc1 → v13`，同时展示晋级与回滚分支，避免只给出抽象结论 |
 
 ## 当前主线文案
 
 **中文：** MoonSuite 是为 One-Person Company 构建的 Agent OS。智能体感知现有软件，决定调用还是扩展；超出预期的能力被固化，低于预期的改变被回滚，结果进入三差记忆。闭环让软件自举自进化，也让软件定义的组织获得同样能力。
 
 **English:** MoonSuite is the Agent OS for the One-Person Company. Agents sense existing software, choose whether to use or extend it, preserve capability that exceeds expectations, revert changes that do not, and write the result into three-gap memory. The loop lets software—and the software-defined organization—bootstrap and evolve itself.
+
+## 为什么是“自进化” / Why it is self-evolving
+
+首页闭环现在用一个明确标注为概念演示的 OPC 任务，而不是虚构生产遥测：创始人要求系统每周把客户访谈生成带引用的市场简报，且证据置信度必须达到门槛。系统从 `research_brief@v12` 开始，感知到“无法保存矛盾证据”的能力缺口；它复用四项现有能力，只为缺失部分生成隔离候选 `v13-rc1`；随后按事先声明的引用、矛盾处理、权限和评分契约验收。
+
+通过验收时，候选代码、测试、执行证据和记忆一起晋级为 `research_brief@v13`，并成为下周任务的基线。未通过时，系统恢复 `v12`，不晋级候选代码，但保留失败证据和能力缺口。关键不是一次任务分数提高，而是系统下一次的可行动边界发生了可验证、可复用、可回滚的改变。
+
+The homepage loop now uses an explicitly labeled concept demo rather than invented production telemetry. It begins with `research_brief@v12`, detects a missing contradiction ledger, reuses four existing capabilities, creates only the missing capability as isolated candidate `v13-rc1`, and evaluates it against a predeclared evidence and authority contract.
+
+On pass, candidate code, tests, execution evidence, and memory are promoted together as `research_brief@v13`, which becomes the next week's baseline. On failure, the system restores `v12`, refuses to promote the candidate, and retains the failed evidence gap. That persistent change to the system's future action space—rather than a better one-off answer—is the self-evolution claim.
 
 ## 图片证据与边界
 

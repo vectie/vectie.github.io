@@ -196,24 +196,56 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
       div(class="section-heading", [
         p(class="section-index", "01 / LOOP"),
         div([
-          p(class="eyebrow", "AGENT ↔ SOFTWARE"),
+          p(class="eyebrow", "SEE THE SOFTWARE CHANGE ITSELF"),
           h2(
             if lang == Zh {
-              "软件开始自举。"
+              "一次任务结束，下一次能力已经不同。"
             } else {
-              "Software begins to bootstrap."
+              "One task ends. The next starts more capable."
             },
           ),
         ]),
         p(
           if lang == Zh {
-            "闭环不是自动化流程的另一种说法。它要求系统区分任务完成与能力增长，并对每次改变保留回滚权。"
+            "自进化不是智能体把任务做完，而是被验证的新能力进入软件本身，成为下一轮可以直接调用的起点。"
           } else {
-            "The loop is not another name for automation. It distinguishes task completion from capability growth and preserves the right to revert every change."
+            "Self-evolution is not an agent finishing a task. It is a verified new capability entering the software itself and becoming the next cycle's starting point."
           },
         ),
       ]),
       div(class="loop-console", [
+        div(class="loop-contract", [
+          div(class="loop-contract-label", [
+            span("CONCEPT DEMO"),
+            b("OPC TASK 042"),
+          ]),
+          div([
+            small(if lang == Zh { "创始人目标" } else { "FOUNDER GOAL" }),
+            p(
+              if lang == Zh {
+                "每周把新客户访谈变成带引用的市场简报；只有证据置信度 ≥ 0.85 才发送。"
+              } else {
+                "Turn new customer interviews into a cited market brief every week; send only when evidence confidence is ≥ 0.85."
+              },
+            ),
+          ]),
+          div([
+            small(
+              if lang == Zh {
+                "示例验收契约"
+              } else {
+                "ILLUSTRATIVE CONTRACT"
+              },
+            ),
+            p(
+              if lang == Zh {
+                "引用完整 · 矛盾可见 · 权限合规 · 评分 ≥ 85"
+              } else {
+                "Citations complete · contradictions visible · authority valid · score ≥ 85"
+              },
+            ),
+          ]),
+        ]),
         div(
           class="loop-tabs",
           attrs=@html.Attrs::build()
@@ -222,28 +254,100 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
           tab_views,
         ),
         div(class="loop-stage", [
-          div(class="loop-diagram", [
-            div(class="loop-object software", [
-              small("OBJECT 01"),
-              b("SOFTWARE"),
-              span(
-                if lang == Zh {
-                  "现有能力"
-                } else {
-                  "existing capability"
-                },
+          div(class="loop-evolution", [
+            div(class="version-track", [
+              div(class="version-node version-baseline", [
+                small(
+                  if lang == Zh {
+                    "本轮基线"
+                  } else {
+                    "CYCLE BASELINE"
+                  },
+                ),
+                b("research_brief@v12"),
+                span(
+                  if lang == Zh {
+                    "已验证 / 可回滚"
+                  } else {
+                    "verified / recoverable"
+                  },
+                ),
+              ]),
+              div(class="version-arrow", [
+                span("→"),
+                small(
+                  if model.active_step < 2 {
+                    if lang == Zh {
+                      "发现缺口"
+                    } else {
+                      "gap found"
+                    }
+                  } else if model.active_step < 4 {
+                    if lang == Zh {
+                      "候选变更"
+                    } else {
+                      "candidate change"
+                    }
+                  } else if lang == Zh {
+                    "验证通过"
+                  } else {
+                    "verified"
+                  },
+                ),
+              ]),
+              div(
+                class="version-node version-candidate phase-\{model.active_step + 1}",
+                [
+                  small(
+                    if model.active_step < 2 {
+                      if lang == Zh {
+                        "能力缺口"
+                      } else {
+                        "CAPABILITY GAP"
+                      }
+                    } else if model.active_step < 4 {
+                      if lang == Zh {
+                        "隔离候选"
+                      } else {
+                        "ISOLATED CANDIDATE"
+                      }
+                    } else if lang == Zh {
+                      "下一轮基线"
+                    } else {
+                      "NEXT BASELINE"
+                    },
+                  ),
+                  b(active.capability),
+                  span(active.evidence.get(lang)),
+                ],
               ),
             ]),
-            div(class="loop-current", [
-              span(two_digit(model.active_step + 1)),
-              i(""),
-              i(""),
-              i(""),
+            div(class="capability-diff", [
+              div([
+                small("− v12"),
+                span(if lang == Zh { "线性摘要" } else { "linear summary" }),
+              ]),
+              div(class="diff-add", [
+                small("+ v13"),
+                span(
+                  if lang == Zh {
+                    "矛盾账本 · 证据校验器 · 新测试"
+                  } else {
+                    "contradiction ledger · evidence checker · new tests"
+                  },
+                ),
+              ]),
             ]),
-            div(class="loop-object agent", [
-              small("ACTOR 01"),
-              b("AGENT"),
-              span(if lang == Zh { "有界行动" } else { "bounded action" }),
+            div(class="loop-proof-line", [
+              span(if lang == Zh { "任务结果" } else { "TASK RESULT" }),
+              b("71 → 91"),
+              small(
+                if lang == Zh {
+                  "示例评分 / 100"
+                } else {
+                  "illustrative score / 100"
+                },
+              ),
             ]),
           ]),
           div(class="loop-explain", [
@@ -253,37 +357,116 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
             ),
             h3(active.title.get(lang)),
             p(active.copy.get(lang)),
-            div(class="decision-strip", [
-              span(
+            p(class="loop-state", active.state.get(lang)),
+            div(class="loop-evidence", [
+              small(
                 if lang == Zh {
-                  "已有能力 → 使用"
+                  "当前证据"
                 } else {
-                  "capable → use"
+                  "CURRENT EVIDENCE"
                 },
               ),
-              span(
+              b(active.evidence.get(lang)),
+            ]),
+          ]),
+        ]),
+        div(class="loop-branches", [
+          div(class="loop-branch branch-reward", [
+            div([
+              span("PASS"),
+              b(if lang == Zh { "强化 / 晋级" } else { "REWARD / PROMOTE" }),
+            ]),
+            p(
+              if lang == Zh {
+                "91 ≥ 85：将代码、测试、执行证据与记忆一起固化为 research_brief@v13。"
+              } else {
+                "91 ≥ 85: consolidate code, tests, execution evidence, and memory as research_brief@v13."
+              },
+            ),
+          ]),
+          div(class="loop-branch branch-revert", [
+            div([
+              span("FAIL"),
+              b(
                 if lang == Zh {
-                  "能力缺口 → 编码"
+                  "回滚 / 留痕"
                 } else {
-                  "gap → code"
-                },
-              ),
-              span(
-                if lang == Zh {
-                  "超预期 → 固化"
-                } else {
-                  "exceeds → claim"
-                },
-              ),
-              span(
-                if lang == Zh {
-                  "低预期 → 回滚"
-                } else {
-                  "misses → revert"
+                  "REVERT / RETAIN GAP"
                 },
               ),
             ]),
+            p(
+              if lang == Zh {
+                "若 78 < 85：恢复 v12；保留失败证据与能力缺口，但不晋级候选代码。"
+              } else {
+                "If 78 < 85: restore v12; retain failure evidence and the capability gap, but do not promote candidate code."
+              },
+            ),
           ]),
+        ]),
+        div(class="loop-next-cycle", [
+          span("WHY SELF-EVOLVING"),
+          p(
+            if lang == Zh {
+              "闭环改变的不是一次任务结果，而是系统下一次能够做什么。下周，v13 已经是起点，创始人无需重新教一遍。"
+            } else {
+              "The loop changes not only the result of one task, but what the system can do next time. Next week, v13 is already the starting point—the founder does not teach it again."
+            },
+          ),
+          b("v12 → v13 → v14 → …"),
+        ]),
+      ]),
+      div(class="loop-comparison", [
+        div([
+          span("01 / AUTOMATION"),
+          b(
+            if lang == Zh {
+              "重复固定流程"
+            } else {
+              "Repeats a fixed workflow"
+            },
+          ),
+          p(
+            if lang == Zh {
+              "下一轮能力仍然相同。"
+            } else {
+              "The next cycle has the same capability."
+            },
+          ),
+        ]),
+        div([
+          span("02 / AGENT"),
+          b(
+            if lang == Zh {
+              "会在会话中适应"
+            } else {
+              "Adapts inside a session"
+            },
+          ),
+          p(
+            if lang == Zh {
+              "任务结束后，新能力往往消失。"
+            } else {
+              "New capability often disappears when the task ends."
+            },
+          ),
+        ]),
+        div(class="comparison-active", [
+          span("03 / MOONSUITE LOOP"),
+          b(
+            if lang == Zh {
+              "改变未来能力边界"
+            } else {
+              "Changes the future capability boundary"
+            },
+          ),
+          p(
+            if lang == Zh {
+              "验证通过的变化版本化、可复用；失败变化可回滚且留存证据。"
+            } else {
+              "Verified changes become versioned and reusable; failed changes revert while preserving evidence."
+            },
+          ),
         ]),
       ]),
     ]),
