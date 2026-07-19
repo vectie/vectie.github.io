@@ -1,0 +1,22 @@
+///|
+using @html {
+  a,
+  article,
+  b,
+  blockquote,
+  button,
+  div,
+  em,
+  footer,
+  h1,
+  h2,
+  h3,
+  header,
+  i,
+  main_,
+  nav,
+  p,
+  section,
+  small,
+  span,
+}

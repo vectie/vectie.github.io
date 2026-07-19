@@ -1,4 +1,17 @@
-# 介绍
+# Moonsuite — MoonBit + Rabbita
+
+Vectie 官网现已迁移为完整的 Moonsuite 双语产品网站，主线为 **Agent OS → OPC OS → ZPC**。应用模型、消息更新、语言切换、交互式闭环、12 个产品分页与中国市场计划全部使用 MoonBit 编写，并由 Rabbita 渲染。
+
+```bash
+pnpm install
+moon update
+pnpm test
+pnpm dev
+```
+
+GitHub Pages 工作流会构建并发布 `dist/client` 到 [vectie.github.io](https://vectie.github.io)，同一产物也继续服务自定义域名 `vectie.com`。
+
+## 之前的组织介绍
 
 [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie)
 [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie)

@@ -1,17 +1,24 @@
-name: Build and deploy
+name: Build and deploy MoonBit site
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -22,26 +29,31 @@ jobs:
           node-version: 22
           cache: pnpm
 
+      - name: Install MoonBit
+        run: |
+          curl -fsSL https://cli.moonbitlang.com/install/unix.sh | bash
+          echo "$HOME/.moon/bin" >> "$GITHUB_PATH"
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build with VitePress
-        run: pnpm run docs:build
+      - name: Resolve MoonBit packages
+        run: moon update
 
-      - name: Generate CNAME
-        run: echo "vectie.com" > docs/.vitepress/dist/CNAME
+      - name: Verify MoonBit and Rabbita site
+        run: pnpm test
 
-      - name: Upload artifact
+      - name: Preserve custom domain
+        run: echo "vectie.com" > dist/client/CNAME
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: dist/client
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github_pages
       url: ${{ steps.deployment.outputs.page_url }}

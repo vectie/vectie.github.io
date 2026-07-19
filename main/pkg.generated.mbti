@@ -1,0 +1,34 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "vectie/moonsuite-site/main"
+
+import {
+  "moonbitlang/core/debug",
+}
+
+// Values
+
+// Errors
+
+// Types and methods
+type Bilingual
+
+type Lang derive(Eq, @debug.Debug)
+
+type LoopStep
+
+type MarketPhase
+
+type Model
+
+type Msg derive(@debug.Debug)
+
+type Product
+
+type ProductKind derive(Eq, @debug.Debug)
+
+type Stage derive(Eq, @debug.Debug)
+
+// Type aliases
+
+// Traits
+

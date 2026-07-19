@@ -1,16 +1,28 @@
 {
+  "name": "vectie-moonsuite-site",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
   "packageManager": "pnpm@9.0.0",
-  "devDependencies": {
-    "vitepress": "^2.0.0-alpha.12",
-    "wrangler": "^4.44.0"
+  "engines": {
+    "node": ">=22.13.0"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "deploy:cf": "pnpm run docs:build && wrangler deploy"
+    "predev": "moon build --target js --debug && node prepare-rabbita-build.mjs debug",
+    "dev": "vite --host 127.0.0.1 --port 4177",
+    "prebuild": "moon build --target js --release && node prepare-rabbita-build.mjs release",
+    "build": "vite build && node prepare-static-routes.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4177",
+    "test": "moon check --target js --warn-list +unnecessary_annotation && moon test --target js && pnpm run build && node --test tests/rabbita-build.test.mjs",
+    "lint": "moon check --target js --warn-list +unnecessary_annotation",
+    "deploy:cf": "pnpm run build && wrangler deploy"
   },
   "dependencies": {
-    "vitepress-plugin-comment-with-giscus": "^1.1.15"
+    "@rabbita/vite": "^0.2.0",
+    "vite": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "wrangler": "^4.44.0"
   }
 }

@@ -1,4 +1,17 @@
-# Introduction
+# Moonsuite — MoonBit + Rabbita
+
+The public Vectie site is now the bilingual Moonsuite product experience: **Agent OS → OPC OS → ZPC**. Its application model, update loop, language switching, interactive system loop, product pages, and China-market plan are written in MoonBit and rendered by Rabbita.
+
+```bash
+pnpm install
+moon update
+pnpm test
+pnpm dev
+```
+
+The GitHub Pages workflow builds `dist/client` and publishes it to [vectie.github.io](https://vectie.github.io). The same artifact continues to serve the custom `vectie.com` domain.
+
+## Previous organization introduction
 
 [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie)
 [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie)
