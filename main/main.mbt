@@ -14,7 +14,7 @@ extern "js" fn browser_product_slug() -> String =
 ///|
 #cfg(target="js")
 extern "js" fn browser_initial_lang() -> String =
-  #| () => new URLSearchParams(globalThis.location?.search || "").get("lang") || "zh"
+  #| () => new URLSearchParams(globalThis.location?.search || "").get("lang") || "en"
 
 ///|
 #cfg(target="js")
@@ -27,8 +27,17 @@ extern "js" fn browser_set_lang(lang : String) -> Unit =
   #| }
 
 ///|
+fn lang_from_code(code : String) -> Lang {
+  if code == "zh" {
+    Zh
+  } else {
+    En
+  }
+}
+
+///|
 fn init_model() -> Model {
-  let lang = if browser_initial_lang() == "en" { En } else { Zh }
+  let lang = lang_from_code(browser_initial_lang())
   browser_set_lang(if lang == Zh { "zh" } else { "en" })
   { lang, active_step: 0, path: browser_pathname() }
 }
