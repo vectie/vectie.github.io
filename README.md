@@ -9,7 +9,7 @@ pnpm test
 pnpm dev
 ```
 
-The GitHub Pages workflow builds `dist/client` and publishes it to [vectie.github.io](https://vectie.github.io). The same artifact continues to serve the custom `vectie.com` domain.
+The editable HTML entry lives in `site/`. `pnpm build` creates `dist/client` and synchronizes the compiled artifact to the repository root for branch-based [GitHub Pages](https://vectie.github.io). The same artifact continues to serve the custom `vectie.com` domain.
 
 ## Previous organization introduction
 

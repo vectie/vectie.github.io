@@ -22,7 +22,12 @@ function moonbitBrowserShim() {
 }
 
 export default defineConfig({
-  publicDir: 'docs/public',
-  build: { chunkSizeWarningLimit: 1200, outDir: 'dist/client' },
+  root: 'site',
+  publicDir: '../docs/public',
+  build: {
+    chunkSizeWarningLimit: 1200,
+    outDir: '../dist/client',
+    emptyOutDir: true,
+  },
   plugins: [rabbita(), moonbitBrowserShim()],
 })

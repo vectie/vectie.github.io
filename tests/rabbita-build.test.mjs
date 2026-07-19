@@ -20,3 +20,14 @@ test('the static shell loads the compiled Rabbita application', () => {
   const assets = fs.readdirSync('dist/client/assets')
   assert.equal(assets.some((name) => name.includes('rabbita_main-entry')), true)
 })
+
+test('branch-based GitHub Pages receives the compiled root artifact', () => {
+  const html = fs.readFileSync('index.html', 'utf8')
+  assert.match(html, /assets\/index-[^"']+\.js/)
+  assert.equal(
+    fs.readdirSync('assets').some((name) => name.includes('rabbita_main-entry')),
+    true,
+  )
+  assert.equal(fs.existsSync('products/moonclaw/index.html'), true)
+  assert.equal(fs.existsSync('plan/index.html'), true)
+})

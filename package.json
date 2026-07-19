@@ -11,7 +11,7 @@
     "predev": "moon build --target js --debug && node prepare-rabbita-build.mjs debug",
     "dev": "vite --host 127.0.0.1 --port 4177",
     "prebuild": "moon build --target js --release && node prepare-rabbita-build.mjs release",
-    "build": "vite build && node prepare-static-routes.mjs",
+    "build": "vite build && node prepare-static-routes.mjs && node sync-pages-root.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4177",
     "test": "moon check --target js --warn-list +unnecessary_annotation && moon test --target js && pnpm run build && node --test tests/rabbita-build.test.mjs",
     "lint": "moon check --target js --warn-list +unnecessary_annotation",

@@ -9,7 +9,7 @@ pnpm test
 pnpm dev
 ```
 
-GitHub Pages 工作流会构建并发布 `dist/client` 到 [vectie.github.io](https://vectie.github.io)，同一产物也继续服务自定义域名 `vectie.com`。
+可编辑 HTML 入口位于 `site/`。`pnpm build` 会生成 `dist/client`，并将编译产物同步到仓库根目录以兼容当前的分支式 [GitHub Pages](https://vectie.github.io)；同一产物也继续服务自定义域名 `vectie.com`。
 
 ## 之前的组织介绍
 

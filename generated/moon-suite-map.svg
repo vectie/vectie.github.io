@@ -1,0 +1,69 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="32" fill="#F5F8FC"/>
+  <rect x="56" y="56" width="1288" height="788" rx="28" fill="white" stroke="#D7E3F4"/>
+  <text x="100" y="132" fill="#0F172A" font-size="46" font-family="Arial, sans-serif" font-weight="800">How the Moon Suite Fits Together</text>
+  <text x="100" y="174" fill="#475569" font-size="24" font-family="Arial, sans-serif">Marketing-friendly map of books, runtimes, towns, desks, stats, robots, and world models.</text>
+
+  <g>
+    <rect x="104" y="226" width="260" height="146" rx="24" fill="#EEF5FF" stroke="#B8D0FF"/>
+    <text x="136" y="278" fill="#165DFF" font-size="18" font-family="Arial, sans-serif" font-weight="700">Durable Knowledge</text>
+    <text x="136" y="320" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">MoonBook</text>
+    <text x="136" y="354" fill="#475569" font-size="20" font-family="Arial, sans-serif">Executable books, wiki memory,</text>
+    <text x="136" y="382" fill="#475569" font-size="20" font-family="Arial, sans-serif">generated sites and contracts</text>
+  </g>
+
+  <g>
+    <rect x="418" y="226" width="260" height="146" rx="24" fill="#EEFDF8" stroke="#B9EDD9"/>
+    <text x="450" y="278" fill="#12B886" font-size="18" font-family="Arial, sans-serif" font-weight="700">Runtime + Tasks</text>
+    <text x="450" y="320" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">MoonClaw</text>
+    <text x="450" y="354" fill="#475569" font-size="20" font-family="Arial, sans-serif">Agent execution, sessions,</text>
+    <text x="450" y="382" fill="#475569" font-size="20" font-family="Arial, sans-serif">jobs, artifacts, MoonCode loops</text>
+  </g>
+
+  <g>
+    <rect x="732" y="226" width="260" height="146" rx="24" fill="#F7F1FF" stroke="#DACAF8"/>
+    <text x="764" y="278" fill="#7C3AED" font-size="18" font-family="Arial, sans-serif" font-weight="700">Town Control Plane</text>
+    <text x="764" y="320" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">Moontown</text>
+    <text x="764" y="354" fill="#475569" font-size="20" font-family="Arial, sans-serif">Standing goals, routing, mayor,</text>
+    <text x="764" y="382" fill="#475569" font-size="20" font-family="Arial, sans-serif">civic patterns, synthesis</text>
+  </g>
+
+  <g>
+    <rect x="1046" y="226" width="260" height="146" rx="24" fill="#FFF4EC" stroke="#FFD6B1"/>
+    <text x="1078" y="278" fill="#D97706" font-size="18" font-family="Arial, sans-serif" font-weight="700">Human Shell</text>
+    <text x="1078" y="320" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">Moondesk</text>
+    <text x="1078" y="354" fill="#475569" font-size="20" font-family="Arial, sans-serif">Desktop workspace, MoonWiki,</text>
+    <text x="1078" y="382" fill="#475569" font-size="20" font-family="Arial, sans-serif">MoonCode, exports</text>
+  </g>
+
+  <g>
+    <rect x="182" y="508" width="260" height="146" rx="24" fill="#ECFDF7" stroke="#B8EBCF"/>
+    <text x="214" y="560" fill="#059669" font-size="18" font-family="Arial, sans-serif" font-weight="700">Physical Boundary</text>
+    <text x="214" y="602" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">Moonrobo</text>
+    <text x="214" y="636" fill="#475569" font-size="20" font-family="Arial, sans-serif">Robot gateways, safety gates,</text>
+    <text x="214" y="664" fill="#475569" font-size="20" font-family="Arial, sans-serif">telemetry and evidence</text>
+  </g>
+
+  <g>
+    <rect x="570" y="508" width="260" height="146" rx="24" fill="#EEF8FF" stroke="#B8DDF8"/>
+    <text x="602" y="560" fill="#0284C7" font-size="18" font-family="Arial, sans-serif" font-weight="700">Observability</text>
+    <text x="602" y="602" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">MoonGate</text>
+    <text x="602" y="636" fill="#475569" font-size="20" font-family="Arial, sans-serif">Proxy routing, provider control,</text>
+    <text x="602" y="664" fill="#475569" font-size="20" font-family="Arial, sans-serif">usage, metrics, suite status</text>
+  </g>
+
+  <g>
+    <rect x="958" y="508" width="260" height="146" rx="24" fill="#F5F3FF" stroke="#D8CFFD"/>
+    <text x="990" y="560" fill="#6D28D9" font-size="18" font-family="Arial, sans-serif" font-weight="700">World Model</text>
+    <text x="990" y="602" fill="#0F172A" font-size="34" font-family="Arial, sans-serif" font-weight="800">Moonmoon</text>
+    <text x="990" y="636" fill="#475569" font-size="20" font-family="Arial, sans-serif">Lunar terrain, mission scoring,</text>
+    <text x="990" y="664" fill="#475569" font-size="20" font-family="Arial, sans-serif">trusted evidence dossier</text>
+  </g>
+
+  <path d="M364 299H418" stroke="#165DFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M678 299H732" stroke="#12B886" stroke-width="4" stroke-linecap="round"/>
+  <path d="M992 299H1046" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+  <path d="M700 372V456" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M312 508V428C312 410 326 396 344 396H1056C1074 396 1088 410 1088 428V508" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+  <text x="104" y="778" fill="#334155" font-size="24" font-family="Arial, sans-serif">The product story is broad by design: durable knowledge, agent execution, town supervision, human operators, observability, robotics, and simulation-grade world models.</text>
+</svg>
