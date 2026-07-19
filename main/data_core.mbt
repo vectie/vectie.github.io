@@ -10,7 +10,8 @@ fn core_products() -> Array[Product] {
       github: "https://github.com/vectie/moonclaw",
       visual: "runtime",
       philosophy: bi(
-        "执行，是智能体对世界作出的唯一承诺。", "Execution is the only promise an agent makes to the world.",
+        "智能不是一次回答，而是能够留下证据、继续运行并接受纠偏的行动。",
+        "Intelligence is not an answer; it is action that leaves evidence, keeps running, and accepts correction.",
       ),
       intro: bi(
         "MoonBit 原生智能体运行时，把对话、长期任务、本地工具、远程智能体、工作区与操作面收进同一个可检查的执行边界。",
@@ -50,8 +51,7 @@ fn core_products() -> Array[Product] {
       github: "https://github.com/vectie/moonbook",
       visual: "memory",
       philosophy: bi(
-        "记忆不是数据库，而是智能体与世界之间的三本账：信息差、认知差、执行差。",
-        "Memory is not a database; it is three ledgers between an agent and the world: information, cognition, and execution gaps.",
+        "记忆不是过去的仓库，而是下一次行动的校正器。", "Memory is not a warehouse of the past; it is the calibration system for the next action.",
       ),
       intro: bi(
         "持久化 Agentic 工作空间，把原始证据、知识页、评审队列、可执行工具与发布投影组织为一本会生长的书。",
@@ -91,8 +91,8 @@ fn core_products() -> Array[Product] {
       github: "https://github.com/vectie/moontown",
       visual: "town",
       philosophy: bi(
-        "组织不是被设计出来的，而是在日程与路由之间自下而上涌现的。",
-        "Organizations are not designed into existence; they emerge bottom-up between cadence and routing.",
+        "组织不是被设计出来的图，而是角色、记忆与规则长期互动后涌现出的秩序。",
+        "An organization is not a designed chart, but order emerging from the long interaction of roles, memory, and rules.",
       ),
       intro: bi(
         "自下而上的智能体社会与自治控制面，让多个 Book、Claw 与居民角色在长期目标下形成一座可观察的城镇。",
@@ -132,8 +132,8 @@ fn core_products() -> Array[Product] {
       github: "https://github.com/vectie/moonflow",
       visual: "flow",
       philosophy: bi(
-        "编排的真谛是敬畏失败：每一次执行都必须失败闭合、可恢复、可重放。",
-        "Orchestration begins with respect for failure: every execution must fail closed, recover, and replay.",
+        "真正的编排，不保证永不失败，而保证失败之后仍能继续。",
+        "Real orchestration does not promise never to fail; it promises the work can continue afterward.",
       ),
       intro: bi(
         "自上而下的任务实现与证据编排层，把源意图转译成依赖图、尝试、策略决定和可恢复状态。",

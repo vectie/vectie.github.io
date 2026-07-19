@@ -1,12 +1,12 @@
 # MoonSuite 产品哲学候选 / Product Philosophy Options
 
-状态：每款产品的 A 版目前在线。请选择 A / B / C；确认后，中英文会作为同一条编辑单元一起更新，避免两种语言各说各话。
+状态：最终选择已确认并同步到中英文产品数据。候选保留为决策记录。
+
+最终选择：`Claw-B, Book-C, Town-B, Flow-C, Desk-A, Gate-A, Proj-C, Robo-C, Moon-A, Mold-A, Cast-C, Find-A`
 
 - A：传播型——锋利、好记，适合首页。
 - B：工程型——边界清楚，适合技术受众。
 - C：综合型——兼顾传播与可信度，默认推荐。
-
-回复示例：`Claw-C, Book-A, Town-C, Flow-B, Desk-C, Gate-B, Proj-C, Robo-C, Moon-A, Mold-C, Cast-C, Find-B`
 
 ## 01 · MoonClaw
 

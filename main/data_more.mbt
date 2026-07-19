@@ -91,7 +91,8 @@ fn platform_products() -> Array[Product] {
       github: "",
       visual: "erp",
       philosophy: bi(
-        "ERP 不应该是人伺候系统，而是系统伺候人。", "People should not serve the ERP; the ERP should serve the people.",
+        "公司的经营事实应从执行中自然沉淀，而不是靠人重复录入。",
+        "A company’s operating truth should settle out of execution, not repeated human data entry.",
       ),
       intro: bi(
         "智能体管理的企业 ERP / Company OS，以法人、权限、财务、税务、资金、投资与审计为本地权威。",
@@ -137,8 +138,8 @@ fn case_products() -> Array[Product] {
       github: "https://github.com/vectie/moonrobo",
       visual: "robo",
       philosophy: bi(
-        "物理世界的每一次动作，都必须先赢得数字世界的授权。",
-        "Every action in the physical world must first earn authorization in the digital world.",
+        "让智能拥有身体之前，先让每一个动作拥有证据与边界。",
+        "Before intelligence gets a body, give every action evidence and boundaries.",
       ),
       intro: bi(
         "线上智能体与线下机器人融合平台，把感知、遥测、校准、安全闸门与有界动作接入同一证据循环。",
@@ -258,7 +259,7 @@ fn case_products() -> Array[Product] {
       github: "https://github.com/vectie/mooncast",
       visual: "cast",
       philosophy: bi(
-        "生成不是创作；通过八道证据门的生成，才是。", "Generation is not creation; generation that passes eight evidence gates is.",
+        "创作可以自由，生产必须让每一帧都有来处。", "Creation may be free; production must give every frame a provenance.",
       ),
       intro: bi(
         "智能体加持的 AIGC 平台，把策划、素材、生成、编辑、质检与客户评审连成证据轨。",

@@ -9,7 +9,7 @@
 | 技术架构 | 现有 MoonBit + Rabbita | 与产品技术主张一致，双语、路由、交互闭环和静态部署已完整验证 |
 | 首页主标题 | Kimi 方向 | “软件的最高目的，是自举自进化”比“让软件成为组织”更锋利，也更贴合核心论点 |
 | 辅助论点 | 合并 | “让软件成为组织”保留为第二层 manifesto，形成“目的 → 组织结果”的叙事顺序 |
-| 产品一句话哲学 | Kimi 版本暂时在线，等待选择 | 已整理 A 传播型 / B 工程型 / C 综合型候选，见 `docs/PHILOSOPHY_OPTIONS.md` |
+| 产品一句话哲学 | 所有者确认的混合版本 | 最终选择为 `Claw-B, Book-C, Town-B, Flow-C, Desk-A, Gate-A, Proj-C, Robo-C, Moon-A, Mold-A, Cast-C, Find-A`；完整决策记录见 `docs/PHILOSOPHY_OPTIONS.md` |
 | 产品正文 | 现有版本为底 | 现有版本有中英双语、边界声明、OPC 作用和成熟度说明，避免只宣传不交代证据 |
 | 图片 | Kimi 资产 + 本地真实构建取证 | 已从 6 个本地产品构建补图；目前 12 款产品中 9 款有 source-captured 证据，3 款使用明确标注的证据视图 |
 | 导航与页面组织 | 合并 | 增加协作流与 ZPC 入口，同时保留中国市场计划 |
@@ -47,7 +47,7 @@
 
 ## English handover summary
 
-The production site remains MoonBit + Rabbita. The merge adopts Kimi’s sharper hero thesis and visual direction while retaining the bilingual copy, interactive loop, China-market plan, maturity labels, and evidence boundaries. Nine of twelve products now have source-captured evidence; MoonFlow, MoonMold, and MoonFind retain explicitly labeled evidence views because a fabricated UI would overstate what exists. Product philosophy remains on the current Kimi-derived option until the owner selects A, B, or C in `docs/PHILOSOPHY_OPTIONS.md`.
+The production site remains MoonBit + Rabbita. The merge adopts Kimi’s sharper hero thesis and visual direction while retaining the bilingual copy, interactive loop, China-market plan, maturity labels, and evidence boundaries. Nine of twelve products now have source-captured evidence; MoonFlow, MoonMold, and MoonFind retain explicitly labeled evidence views because a fabricated UI would overstate what exists. The owner-confirmed philosophy mix is recorded in `docs/PHILOSOPHY_OPTIONS.md` and applied as paired Chinese-English copy in the product data.
 
 Build and verification:
 
