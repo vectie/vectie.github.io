@@ -38,8 +38,8 @@ fn platform_products() -> Array[Product] {
       ],
       interfaces: ["MoonBook", "MoonClaw", "Moontown", "MoonFlow"],
       evidence: bi(
-        "公开仓库；本地单用户 Alpha 可用。生产发行仍需签名、更新托管、净机验证与长稳测试。",
-        "Public repository; usable local single-user alpha. Production distribution still needs signing, hosted updates, clean-machine validation, and endurance proof.",
+        "公开仓库；页面展示连接本地工作区的真实 Rabbita 桌面，能浏览 10 个 MoonBook、目录和 AI 权限边界。本地单用户 Alpha 可用；生产发行仍需签名、更新托管、净机验证与长稳测试。",
+        "Public repository; the page shows the real Rabbita desktop connected to a local workspace, including ten MoonBooks, the directory browser, and AI authority boundaries. The local single-user alpha is usable; production distribution still needs signing, hosted updates, clean-machine validation, and endurance proof.",
       ),
     },
     {
@@ -118,8 +118,8 @@ fn platform_products() -> Array[Product] {
       ],
       interfaces: ["MoonClaw", "MoonGate", "MoonDesk"],
       evidence: bi(
-        "早期实现；公开 GitHub 入口当前不可验证。既有 ERP 仍是权威，生产切换需要业务 owner 与真实数据闸门。",
-        "Early implementation; no public GitHub entry is currently verifiable. Existing ERP remains authoritative and production cutover needs owner and real-data gates.",
+        "本机已有可运行的 MoonBit + Rabbita ERP 壳，页面展示真实登录界面；公开 GitHub 入口当前仍不可验证。既有 ERP 仍是权威，生产切换需要业务 owner 与真实数据闸门。",
+        "A runnable local MoonBit + Rabbita ERP shell exists and the page shows its real sign-in surface; a public GitHub entry is still not verifiable. The existing ERP remains authoritative, and production cutover requires business-owner and real-data gates.",
       ),
     },
   ]
@@ -165,8 +165,8 @@ fn case_products() -> Array[Product] {
       ],
       interfaces: ["MoonClaw", "MoonBook", "Moontown", "MoonGate"],
       evidence: bi(
-        "公开仓库；仿真与设备适配正在演进，真实场地长期安全证据仍待补齐。",
-        "Public repository; simulation and adapters are evolving, while long-running field-safety evidence remains incomplete.",
+        "公开仓库；页面展示本地原生服务加载真实 RoboBook 与 URDF 的只读驾驶舱，50/50 STL 网格、遥测映射和 dry-run 安全门可见。仿真与设备适配仍在演进，真实场地长期安全证据尚未补齐。",
+        "Public repository; the page shows a read-only cockpit served by the local native host with a real RoboBook and URDF—50/50 STL meshes, telemetry mapping, and the dry-run safety gate are visible. Simulation and adapters remain in progress; long-running field-safety proof is incomplete.",
       ),
     },
     {
@@ -285,8 +285,8 @@ fn case_products() -> Array[Product] {
       ],
       interfaces: ["MoonFlow", "MoonBook", "MoonClaw", "MoonDesk"],
       evidence: bi(
-        "公开仓库；确定性样片与系统化长内容路径已有证据。商业交付与发布仍需显式接入。",
-        "Public repository; deterministic fixtures and a systematic long-form path are evidenced. Commercial delivery and publishing still need explicit integration.",
+        "公开仓库；页面展示真实编译的 Studio 静态界面与命名人工权限、G0 场景和预算边界。截图未连接本地 API，因此不代表完整运行；确定性样片与系统化长内容路径已有证据，商业交付与发布仍需显式接入。",
+        "Public repository; the page shows the real compiled Studio in a static state, including named human authority, a G0 scenario, and budget boundaries. The capture is not connected to the local API and does not imply a complete runtime; deterministic fixtures and a systematic long-form path are evidenced, while commercial delivery and publishing still need explicit integration.",
       ),
     },
     {

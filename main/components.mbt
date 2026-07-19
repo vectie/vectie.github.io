@@ -246,9 +246,15 @@ fn short_name(name : String) -> String {
 ///|
 fn product_capture(product : Product) -> String {
   match product.slug {
+    "moonclaw" => "/shots/moonclaw.png"
+    "moonbook" => "/shots/moonbook.png"
     "moontown" => "/shots/moontown.png"
+    "moondesk" => "/shots/moondesk.png"
     "moongate" => "/shots/moongate.png"
+    "moonproj" => "/shots/moonproj.png"
+    "moonrobo" => "/shots/moonrobo.png"
     "moonmoon" => "/shots/moonmoon.png"
+    "mooncast" => "/shots/mooncast.png"
     _ => ""
   }
 }
@@ -256,10 +262,26 @@ fn product_capture(product : Product) -> String {
 ///|
 fn capture_label(product : Product) -> String {
   match product.slug {
+    "moonclaw" => "REAL UI · STATIC OPERATOR STATE"
+    "moonbook" => "REAL OUTPUT · EXECUTABLE BOOK PROJECTION"
     "moontown" => "REPOSITORY ASSETS · SCENE COMPOSITION"
+    "moondesk" => "REAL UI · LOCAL WORKSPACE"
     "moongate" => "REAL CAPTURE · OPERATOR CONSOLE"
+    "moonproj" => "REAL UI · RABBITA ERP SHELL"
+    "moonrobo" => "REAL UI · LOCAL HOST SNAPSHOT"
     "moonmoon" => "REAL CAPTURE · MISSION REHEARSAL"
+    "mooncast" => "REAL UI · STATIC STUDIO STATE"
     _ => "FEATURE VIEW"
+  }
+}
+
+///|
+fn feature_status(product : Product) -> String {
+  match product.slug {
+    "moonflow" => "● NO UI SURFACE"
+    "moonmold" => "● SOURCE UNAVAILABLE"
+    "moonfind" => "● PLANNED"
+    _ => "● FEATURE EVIDENCE"
   }
 }
 
@@ -272,7 +294,7 @@ fn product_visual(product : Product, large? : Bool = false) -> @rabbita.Html {
       [
         div(class="visual-top", [
           span(capture_label(product)),
-          span(class="visual-live", "● VERIFIED SOURCE"),
+          span(class="visual-live", "● SOURCE-CAPTURED"),
         ]),
         img(
           class="capture-image",
@@ -306,7 +328,7 @@ fn product_visual(product : Product, large? : Bool = false) -> @rabbita.Html {
       [
         div(class="visual-top", [
           span(label),
-          span(class="visual-live", "● FEATURE EVIDENCE"),
+          span(class="visual-live", feature_status(product)),
         ]),
         div(class="visual-world", [
           div(class="visual-rings", [i(""), i(""), i("")]),

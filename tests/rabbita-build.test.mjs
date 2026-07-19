@@ -30,7 +30,17 @@ test('branch-based GitHub Pages receives the compiled root artifact', () => {
   )
   assert.equal(fs.existsSync('products/moonclaw/index.html'), true)
   assert.equal(fs.existsSync('plan/index.html'), true)
-  for (const shot of ['moongate.png', 'moontown.png', 'moonmoon.png']) {
+  for (const shot of [
+    'moonclaw.png',
+    'moonbook.png',
+    'moontown.png',
+    'moondesk.png',
+    'moongate.png',
+    'moonproj.png',
+    'moonrobo.png',
+    'moonmoon.png',
+    'mooncast.png',
+  ]) {
     assert.equal(fs.existsSync(`shots/${shot}`), true, shot)
   }
 })

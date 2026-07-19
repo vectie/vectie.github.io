@@ -37,8 +37,8 @@ fn core_products() -> Array[Product] {
       ],
       interfaces: ["MoonBook", "MoonFlow", "MoonDesk", "MoonGate", "Moontown"],
       evidence: bi(
-        "公开仓库；运行时、网关、作业、ACP 与证据链已实现。完整持久化 MoonCode 体验仍在持续收口。",
-        "Public repository; runtime, gateway, jobs, ACP, and evidence lineage exist. The fully persistent MoonCode experience is still converging.",
+        "公开仓库；页面展示真实编译的操作台静态状态，运行时、网关、作业、ACP 与证据链已实现。截图中的本地网关未连接，因此不把它描述为生产运行证明；完整持久化 MoonCode 体验仍在持续收口。",
+        "Public repository; the page shows the real compiled operator UI in a static state. Runtime, gateway, jobs, ACP, and evidence lineage exist. The local gateway is disconnected in the capture, so it is not presented as production-runtime proof; the fully persistent MoonCode experience is still converging.",
       ),
     },
     {
@@ -78,8 +78,8 @@ fn core_products() -> Array[Product] {
       ],
       interfaces: ["MoonClaw", "Moontown", "MoonDesk", "MoonFlow"],
       evidence: bi(
-        "公开仓库；持久化 Wiki、Keeper 记忆、评审与多种投影已实现。领域级主张推理仍偏启发式。",
-        "Public repository; persistent wiki, Keeper memory, review, and projections exist. Domain claim reasoning remains partly heuristic.",
+        "公开仓库；页面展示由真实 MoonBook 工作区生成的可执行书籍站点投影。持久化 Wiki、Keeper 记忆、评审与多种投影已实现；领域级主张推理仍偏启发式。",
+        "Public repository; the page shows an executable-book site projection generated from a real MoonBook workspace. Persistent wiki, Keeper memory, review, and projections exist; domain claim reasoning remains partly heuristic.",
       ),
     },
     {
