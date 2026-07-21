@@ -13,6 +13,28 @@ test('Rabbita build exposes the home, plan, and product routes', () => {
   for (const route of routes) assert.equal(fs.existsSync(route), true, route)
 })
 
+test('the complete Lunar Glyphs logo family is published', () => {
+  for (const name of [
+    'moonsuite',
+    'moonclaw',
+    'moonbook',
+    'moontown',
+    'moonflow',
+    'moondesk',
+    'moongate',
+    'moonproj',
+    'moonrobo',
+    'moonmoon',
+    'moonmold',
+    'mooncast',
+    'moonfind',
+  ]) {
+    const file = `dist/client/logos/${name}.svg`
+    assert.equal(fs.existsSync(file), true, file)
+    assert.match(fs.readFileSync(file, 'utf8'), /viewBox="0 0 512 512"/)
+  }
+})
+
 test('the static shell loads the compiled Rabbita application', () => {
   const html = fs.readFileSync('dist/client/index.html', 'utf8')
   assert.match(html, /<html lang="en">/)
@@ -32,6 +54,8 @@ test('the static shell loads the compiled Rabbita application', () => {
   assert.match(app, /REWARD \/ PROMOTE/)
   assert.match(app, /REVERT \/ RETAIN GAP/)
   assert.match(app, /research_brief@v13/)
+  assert.match(app, /Thirteen marks\. One orbital grammar\./)
+  assert.match(app, /十三枚标记，同一条月轨。/)
 })
 
 test('branch-based GitHub Pages receives the compiled root artifact', () => {

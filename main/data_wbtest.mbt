@@ -98,3 +98,11 @@ test "the evolution loop leaves a verified capability for the next cycle" {
     "Next-cycle baseline: research_brief@v13",
   )
 }
+
+///|
+test "the logo family maps the parent and every product to stable SVG paths" {
+  assert_eq(logo_path("suite"), "/logos/moonsuite.svg")
+  for product in products() {
+    assert_eq(logo_path(product.slug), "/logos/\{product.slug}.svg")
+  }
+}

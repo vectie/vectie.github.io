@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">MoonMoon app icon</title>
+  <rect width="512" height="512" rx="116" fill="#080b0d"/>
+  <circle cx="256" cy="256" r="166" fill="none" stroke="#d8b56a" stroke-width="18" stroke-linecap="round" stroke-dasharray="820 224" transform="rotate(-35 256 256)"/>
+  <circle cx="382" cy="149" r="13" fill="#8ec97f"/>
+  <g fill="none" stroke="#f0f4f2" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M142 318c42-86 186-86 228 0"/>
+    <path d="M178 284c34 8 56 28 72 58M250 342c22-34 52-54 88-58"/>
+    <path d="M180 230c28-36 68-56 116-54" stroke="#8ec97f"/>
+    <path d="m280 160 20 16-20 16" stroke="#8ec97f"/>
+  </g>
+</svg>

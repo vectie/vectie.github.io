@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">MoonFind app icon</title>
+  <rect width="512" height="512" rx="116" fill="#080b0d"/>
+  <circle cx="256" cy="256" r="166" fill="none" stroke="#d8b56a" stroke-width="18" stroke-linecap="round" stroke-dasharray="820 224" transform="rotate(-35 256 256)"/>
+  <circle cx="382" cy="149" r="13" fill="#8ec97f"/>
+  <g fill="none" stroke="#f0f4f2" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="230" cy="230" r="74"/>
+    <path d="m284 284 74 74"/>
+    <path d="M230 188v84M188 230h84" stroke="#8ec97f"/>
+    <circle cx="230" cy="230" r="12" fill="#8ec97f" stroke="none"/>
+  </g>
+</svg>

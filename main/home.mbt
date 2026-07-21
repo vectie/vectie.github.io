@@ -5,6 +5,7 @@ fn product_row(product : Product, index : Int, lang : Lang) -> @rabbita.Html {
     div(class="product-number", two_digit(index + 1)),
     div(class="product-summary", [
       div(class="product-name", [
+        product_logo(product, "product-mark"),
         h3(product.name),
         span(product.cn),
         stage_view(product, lang),
@@ -41,7 +42,11 @@ fn case_card(product : Product, lang : Lang) -> @rabbita.Html {
     [
       product_visual(product),
       div(class="case-copy", [
-        div([h3(product.name), span(product.cn)]),
+        div([
+          product_logo(product, "product-mark"),
+          h3(product.name),
+          span(product.cn),
+        ]),
         stage_view(product, lang),
         p("“\{product.philosophy.get(lang)}”"),
         small(product.intro.get(lang)),
@@ -491,6 +496,7 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
           },
         ),
       ]),
+      logo_family_view(lang),
       div(class="product-list", core_views),
     ]),
     interaction_view(lang),

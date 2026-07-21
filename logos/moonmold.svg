@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">MoonMold app icon</title>
+  <rect width="512" height="512" rx="116" fill="#080b0d"/>
+  <circle cx="256" cy="256" r="166" fill="none" stroke="#d8b56a" stroke-width="18" stroke-linecap="round" stroke-dasharray="820 224" transform="rotate(-35 256 256)"/>
+  <circle cx="382" cy="149" r="13" fill="#8ec97f"/>
+  <g fill="none" stroke="#f0f4f2" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m256 156 94 54v108l-94 54-94-54V210l94-54Z"/>
+    <path d="m162 210 94 54 94-54M256 264v108"/>
+    <path d="m206 184 94 54" stroke="#8ec97f"/>
+  </g>
+</svg>

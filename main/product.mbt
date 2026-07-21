@@ -46,7 +46,10 @@ fn product_page(
             class="eyebrow",
             "\{if product.kind == Core { "CORE SYSTEM" } else { "BUILT WITH MOONSUITE" }} · \{product.cn}",
           ),
-          h1(product.name),
+          div(class="product-title-lockup", [
+            product_logo(product, "product-hero-mark"),
+            h1(product.name),
+          ]),
           blockquote("“\{product.philosophy.get(lang)}”"),
           p(class="product-lead", product.intro.get(lang)),
           div(class="hero-actions", [

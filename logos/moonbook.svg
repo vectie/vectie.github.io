@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">MoonBook app icon</title>
+  <rect width="512" height="512" rx="116" fill="#080b0d"/>
+  <circle cx="256" cy="256" r="166" fill="none" stroke="#d8b56a" stroke-width="18" stroke-linecap="round" stroke-dasharray="820 224" transform="rotate(-35 256 256)"/>
+  <circle cx="382" cy="149" r="13" fill="#8ec97f"/>
+  <g fill="none" stroke="#f0f4f2" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M154 190c44-8 78 2 102 30v132c-24-28-58-38-102-30V190Z"/>
+    <path d="M358 190c-44-8-78 2-102 30v132c24-28 58-38 102-30V190Z"/>
+    <path d="M184 236h38M290 236h38" stroke="#8ec97f"/>
+  </g>
+</svg>

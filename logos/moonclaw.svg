@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">MoonClaw app icon</title>
+  <rect width="512" height="512" rx="116" fill="#080b0d"/>
+  <circle cx="256" cy="256" r="166" fill="none" stroke="#d8b56a" stroke-width="18" stroke-linecap="round" stroke-dasharray="820 224" transform="rotate(-35 256 256)"/>
+  <circle cx="382" cy="149" r="13" fill="#8ec97f"/>
+  <g fill="none" stroke="#f0f4f2" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 190v86c0 57 35 92 80 92s80-35 80-92v-86"/>
+    <path d="M216 184v92M256 176v100M296 184v92"/>
+  </g>
+</svg>

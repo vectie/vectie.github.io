@@ -46,7 +46,7 @@ fn brand(lang : Lang) -> @rabbita.Html {
     attrs=@html.Attrs::build().aria_label("Moonsuite home"),
     escape=true,
     [
-      span(class="brand-orbit", span("")),
+      suite_logo("brand-logo"),
       span([span("MOONSUITE "), small("月栖智能体套件")]),
     ],
   )
@@ -343,7 +343,7 @@ fn product_visual(product : Product, large? : Bool = false) -> @rabbita.Html {
 ///|
 fn footer_view(lang : Lang) -> @rabbita.Html {
   footer(class="footer", [
-    div(class="brand", [span(class="brand-orbit", span("")), span("MOONSUITE")]),
+    div(class="brand", [suite_logo("brand-logo"), span("MOONSUITE")]),
     p(
       if lang == Zh {
         "由向量贴贴 Vectie 开源构建。让软件成为会学习的组织。"
