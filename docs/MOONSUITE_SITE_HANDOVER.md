@@ -2,18 +2,19 @@
 
 ## 合并结论
 
-本版以 MoonBit + Rabbita 网站为唯一生产实现，吸收 `Kimi_Agent_MoonSuite Promo Site` 中更强的叙事、产品哲学和可信图片资产。没有迁移到 React，也没有把两套前端并置。
+本版以 `Kimi_Agent_MoonSuite Promo Site` 为**可见设计与页面构图的唯一基准**，并将它完整翻译到 MoonBit + Rabbita 生产实现。技术栈没有迁移到 React，也没有把两套前端并置；Kimi 决定用户看到的空间、层级、字体、卡片和色彩，MoonBit + Rabbita 负责生成与交互。
 
 | 比较项 | 采用版本 | 原因 |
 | --- | --- | --- |
 | 技术架构 | 现有 MoonBit + Rabbita | 与产品技术主张一致，双语、路由、交互闭环和静态部署已完整验证 |
+| 可见设计基础 | Kimi 完整视觉移植 | 星空与轨道首屏、Space Grotesk 主层级、暗色连续表面、圆角产品网格、琥珀 / 淡紫 / 绿色语义色均以 Kimi 为源；移植实现集中在 `app/kimi-foundation.css` |
 | 默认语言 | English | 无 `?lang=` 参数时使用英文；中文继续通过 `?lang=zh` 与语言按钮完整保留 |
 | 首页主标题 | 所有者确认方向 | “软件自我进化，组织随之生长。”把产品能力与组织结果放进同一条因果链；英文为 “Software that evolves itself—and the organization with it.” |
 | 辅助论点 | 合并 | “让软件成为组织”保留为第二层 manifesto，形成“目的 → 组织结果”的叙事顺序 |
 | 产品一句话哲学 | 所有者确认的混合版本 | 最终选择为 `Claw-B, Book-C, Town-B, Flow-C, Desk-A, Gate-A, Proj-C, Robo-C, Moon-A, Mold-A, Cast-C, Find-A`；完整决策记录见 `docs/PHILOSOPHY_OPTIONS.md` |
 | 产品正文 | 现有版本为底 | 现有版本有中英双语、边界声明、OPC 作用和成熟度说明，避免只宣传不交代证据 |
 | 图片 | Kimi 资产 + 本地真实构建取证 | 已从 6 个本地产品构建补图；目前 12 款产品中 9 款有 source-captured 证据，3 款使用明确标注的证据视图 |
-| 导航与页面组织 | 合并 | 增加协作流与 ZPC 入口，同时保留中国市场计划 |
+| 导航与页面组织 | Kimi 为底，合并增强 | 保留 Kimi 的紧凑胶囊导航和主叙事顺序，增加进阶闭环、Logo 系统、协作流与中国市场计划 |
 | 自进化闭环 | 可交互的概念演示 | 用一个 OPC 周报任务展示 `research_brief@v12 → v13-rc1 → v13`，同时展示晋级与回滚分支，避免只给出抽象结论 |
 | 产品 Logo | Lunar Glyphs / 月相字形 | 新增 MoonSuite 母标与 12 枚产品子标；统一采用缺口月轨、验证信号和职责字形，规范见 `docs/LOGO_SYSTEM.md` |
 

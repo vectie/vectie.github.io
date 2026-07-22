@@ -58,6 +58,17 @@ test('the static shell loads the compiled Rabbita application', () => {
   assert.match(app, /十三枚标记，同一条月轨。/)
 })
 
+test('the production CSS uses the Kimi visual foundation', () => {
+  const assets = fs.readdirSync('dist/client/assets')
+  const cssEntry = assets.find((name) => name.endsWith('.css'))
+  assert.notEqual(cssEntry, undefined)
+  const css = fs.readFileSync(`dist/client/assets/${cssEntry}`, 'utf8')
+  assert.match(css, /Space Grotesk/)
+  assert.match(css, /--lilac:\s*#93a5ff/)
+  assert.match(css, /radial-gradient\(1px 1px at 12% 22%/)
+  assert.match(css, /grid-template-columns:repeat\(3,minmax\(0,1fr\)\)/)
+})
+
 test('branch-based GitHub Pages receives the compiled root artifact', () => {
   const html = fs.readFileSync('index.html', 'utf8')
   assert.match(html, /<html lang="en">/)

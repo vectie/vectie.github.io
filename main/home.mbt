@@ -496,8 +496,8 @@ fn home_view(dispatch : Dispatch[Msg], model : Model) -> @rabbita.Html {
           },
         ),
       ]),
-      logo_family_view(lang),
       div(class="product-list", core_views),
+      logo_family_view(lang),
     ]),
     interaction_view(lang),
     section(id="cases", class="cases-section section-pad", [
