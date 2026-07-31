@@ -30,27 +30,26 @@ https://vectie.com
 
 ## Moon Suite
 
-现在 Vectie 对外展示的是一整套更完整的 Moon 产品线，而不只是几个 featured repo。
+产品线现在按照职责分类，不再把每个 `moon*` 工作树都当成独立应用。
+详见[权威产品目录](docs/MOONSUITE_PRODUCT_CATALOG.md)和
+[文档标准](docs/DOCUMENTATION_STANDARD.md)。
 
-| # | 项目 | 描述 | 热度 |
-| --- | --- | --- | --- |
-| 1   | [moonbook](https://github.com/vectie/moonbook) | MoonBit 原生 mdBook 实现，包含静态渲染、本地服务、watch 工作流和持久化 wiki 工作区。 | ![](https://badgen.net/github/stars/vectie/moonbook) <br>![](https://badgen.net/github/forks/vectie/moonbook) |
-| 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit 原生 agent 运行时，包含 gateway、memory、作业编排和 ACP 远程 agent 控制。 | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
-| 3   | [moontown](https://github.com/vectie/moontown) | 位于多个 moonbook 工作区和 moonclaw worker 之上的 town 级编排层，提供路由、隔离规则、持久化 town 状态，以及房间式 dashboard。 | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
-| 4   | [moondesk](https://github.com/vectie/moondesk) | Moon 系统的人类桌面伙伴，用来查看 MoonBook 工作区、审阅 MoonClaw 产物、向 Moontown 提交任务，以及在不切终端的情况下管理文件。 | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
-| 5   | [moongate](https://github.com/vectie/moongate) | Moon Suite 的本地代理、统计与可观测性网关，负责 provider 控制、usage、metrics 和 suite status。 | ![](https://badgen.net/github/stars/vectie/moongate) <br>![](https://badgen.net/github/forks/vectie/moongate) |
-| 6   | [moonrobo](https://github.com/vectie/moonrobo) | 面向物理世界的机器人接口层，负责桥接、安全边界、telemetry evidence、proof session 和 operator control。 | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
-| 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit 原生月面地形与任务模型，提供 lunar terrain、mission scoring、trusted dossier 和 live 3D view。 | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
+| 层级 | 组件 | 职责 |
+| --- | --- | --- |
+| 平台 | MoonLib、MoonClaw、MoonFlow、MoonGate、MoonBook | 共享契约、唯一 agent runtime、持久化编排、provider 控制与已接受知识 |
+| 人类控制面 | MoonDesk | 工作区、审阅、应用托管、服务状态与组合画布 |
+| 领域产品/Pack | MoonProj、MoonCast、MoonFish、MoonFind、MoonMold、MoonRobo、MoonMoon、MoonTown | 公司经营、媒体、金融、科研、空间模型、机器人、仿真与 civic 工作 |
+| 支撑组件 | MoonEdit、MoonLeaf、MoonVis、Lepusa、Rabbita/Bunnia | 编辑、OOXML、视觉系统、桌面与 UI 框架 |
+| 孵化 | MoonChat | 可移植会话契约；目前不是独立应用 |
 
 ## 产品视角
 
-- `moonbook`：executable book、durable wiki、generated projection、state 与 knowledge contract
-- `moonclaw`：runtime execution、sessions、jobs、tool use、MoonCode flow、artifact lifecycle
-- `moontown`：standing goals、mayor/keeper supervision、cross-book routing、civic orchestration
-- `moondesk`：给人类使用的 desktop shell，承载 MoonWiki、MoonCode、workspace inspection 和 task submission
-- `moongate`：suite proxy、provider control、metrics、usage 和 operational visibility
-- `moonrobo`：robot gateway、安全边界、telemetry evidence、proof session、teleoperation
-- `moonmoon`：月面地形与任务模型、trusted evidence dossier、3D inspection
+- MoonClaw 是唯一 agent runtime；MoonFlow 不是第二套 agent。
+- 领域策略只留在所属产品或 pack。
+- MoonDesk 画布只能执行已安装、健康且 schema 兼容的 operation。
+- MoonBook 负责 accepted knowledge 与 Bookkeeper 三差学习。
+- MoonStat 已并入 MoonGate；MoonMini 是 Bunnia 框架工作树，不是产品。
+- 当前整体仍以 local alpha 为主；fixture、provider port、截图证据与真实生产/商业证明必须分开标注。
 
 ## 如何加入
 

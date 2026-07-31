@@ -32,28 +32,30 @@ https://vectie.com
 
 ## Moon Suite
 
-Vectie now represents a broader public Moon product line rather than a short featured-repo list.
+The product line is classified by responsibility instead of treating every
+Moon-named checkout as an independent application. See the
+[authoritative product catalog](docs/MOONSUITE_PRODUCT_CATALOG.md) and
+[documentation standard](docs/DOCUMENTATION_STANDARD.md).
 
-
-| # | Project | Description | Popularity |
-| --- | --- | --- | --- |
-| 1   | [moonbook](https://github.com/vectie/moonbook) | MoonBit-native mdBook port with static rendering, local serving, watch workflows, and a persistent wiki workspace. | ![](https://badgen.net/github/stars/vectie/moonbook) <br>![](https://badgen.net/github/forks/vectie/moonbook) |
-| 2   | [moonclaw](https://github.com/vectie/moonclaw) | MoonBit-native agent runtime with gateway, memory, job orchestration, and ACP remote-agent control. | ![](https://badgen.net/github/stars/vectie/moonclaw) <br>![](https://badgen.net/github/forks/vectie/moonclaw) |
-| 3   | [moontown](https://github.com/vectie/moontown) | Town-level orchestration above multiple moonbook workspaces and moonclaw workers, with routing, isolation, persistence, and a dashboard that knows who is causing trouble. | ![](https://badgen.net/github/stars/vectie/moontown) <br>![](https://badgen.net/github/forks/vectie/moontown) |
-| 4   | [moondesk](https://github.com/vectie/moondesk) | Human desktop companion for the Moon system, built to inspect MoonBook workspaces, review MoonClaw artifacts, submit work to Moontown, and manage files without dropping into a terminal. | ![](https://badgen.net/github/stars/vectie/moondesk) <br>![](https://badgen.net/github/forks/vectie/moondesk) |
-| 5   | [moongate](https://github.com/vectie/moongate) | Local proxy, statistics, and observability gateway for provider control, usage, metrics, and suite status. | ![](https://badgen.net/github/stars/vectie/moongate) <br>![](https://badgen.net/github/forks/vectie/moongate) |
-| 6   | [moonrobo](https://github.com/vectie/moonrobo) | Physical-world interface layer for robot bridges, safety gates, telemetry evidence, proof sessions, and operator control. | ![](https://badgen.net/github/stars/vectie/moonrobo) <br>![](https://badgen.net/github/forks/vectie/moonrobo) |
-| 7   | [moonmoon](https://github.com/vectie/moonmoon) | MoonBit-native lunar terrain and mission model for world claims, route scoring, trusted dossiers, and live 3D inspection. | ![](https://badgen.net/github/stars/vectie/moonmoon) <br>![](https://badgen.net/github/forks/vectie/moonmoon) |
+| Layer | Components | Responsibility |
+| --- | --- | --- |
+| Platform | MoonLib, MoonClaw, MoonFlow, MoonGate, MoonBook | Shared contracts, sole agent runtime, durable orchestration, provider control, and accepted knowledge |
+| Human control | MoonDesk | Workspace, review, application hosting, service state and composition |
+| Domain products/packs | MoonProj, MoonCast, MoonFish, MoonFind, MoonMold, MoonRobo, MoonMoon, MoonTown | Business, media, finance, research, spatial, robotics, simulation and civic outcomes |
+| Supporting | MoonEdit, MoonLeaf, MoonVis, Lepusa, Rabbita/Bunnia | Editing, OOXML, visual identity, desktop and UI frameworks |
+| Incubating | MoonChat | Portable conversation contracts; not yet a standalone app |
 
 ## Product View
 
-- `moonbook`: executable books, durable wiki, generated projections, state and knowledge contracts
-- `moonclaw`: runtime execution, sessions, jobs, tool use, MoonCode flows, artifact lifecycle
-- `moontown`: standing goals, mayor and keeper supervision, cross-book routing, civic orchestration
-- `moondesk`: human desktop shell for MoonWiki, MoonCode, workspace inspection, and task submission
-- `moongate`: suite proxy, provider control, metrics, usage, and operational visibility
-- `moonrobo`: robot gateway, safety boundary, telemetry evidence, proof sessions, teleoperation
-- `moonmoon`: lunar terrain and mission model, trusted evidence dossiers, 3D inspection
+- MoonClaw is the only agent runtime; MoonFlow is not a second agent.
+- Domain policy stays in the owning product or pack.
+- MoonDesk's canvas may execute only installed, healthy, schema-compatible
+  operations.
+- MoonBook owns accepted knowledge and Bookkeeper Three-Gap learning.
+- MoonStat is retired into MoonGate; MoonMini is the Bunnia framework checkout,
+  not a product.
+- Current maturity is mostly local alpha. Fixture, provider-port and screenshot
+  evidence are labelled separately from live and commercial proof.
 
 ## How to join
 

@@ -11,11 +11,11 @@ hero:
     alt: Moon Suite constellation
   actions:
     - theme: brand
-      text: 看看 Moon Suite
-      link: /intro
+      text: 产品目录与成熟度
+      link: /MOONSUITE_PRODUCT_CATALOG
     - theme: alt
-      text: GitHub
-      link: https://github.com/vectie
+      text: 长篇介绍
+      link: /intro
 
 features:
   - title: moonbook
@@ -52,15 +52,47 @@ features:
     details: 月面世界模型，负责 terrain、hazard、mission scoring、trusted dossier 与 live 3D inspection。
     icon: 🌔
     link: https://github.com/vectie/moonmoon
+
+  - title: moonflow
+    details: 持久化 Work graph、attempt、authority、evidence、review 与 recovery；它不是第二套 agent runtime。
+    icon: 🔀
+    link: https://github.com/vectie/moonflow
+
+  - title: moonproj
+    details: OPC 公司经营系统，覆盖项目、预算、财务、采购、销售、税务与资金；当前为 migration/preview alpha。
+    icon: 🏢
+    link: https://github.com/vectie/moonproj
+
+  - title: mooncast
+    details: 3–8 分钟 AIGC 制作 pack 与剪辑工作室；当前已验证 deterministic pipeline，真实 provider 商业证明仍待完成。
+    icon: 🎬
+    link: https://github.com/vectie/mooncast
+
+  - title: moonfish
+    details: A 股研究与 paper portfolio pack，输出目标价、上涨空间、持有期与失效条件；当前仅限 research/shadow。
+    icon: 🐟
+    link: https://github.com/vectie/moonfish
+
+  - title: moonfind
+    details: 证据驱动的跨论文研究 pack，连接 MoonClaw、MoonTown 与 Bookkeeper；provider 使用按授权开放。
+    icon: 🔭
+    link: https://github.com/vectie/moonfind
+
+  - title: moonmold
+    details: 受治理的可编辑空间模型与 representation lineage pack；当前为 early digital-model alpha。
+    icon: 🧩
+    link: https://github.com/vectie/moonmold
 ---
 
 <img class="moon-hero-image" src="/generated/moon-suite-hero.svg" alt="Moon Suite hero illustration">
 
 <div class="moon-section">
-  <span class="moon-kicker">What Ships Today</span>
-  <h2>每个仓库都做一件很具体的事</h2>
+  <span class="moon-kicker">Original Core View</span>
+  <h2>核心仓库各自负责一件具体的事</h2>
   <p class="moon-lead">
-    这次不讲大词。下面是每个仓库在当前阶段真正负责的产品边界，以及它们怎么一层层拼成 Moon Suite。
+    下面保留最初核心产品的详细介绍。完整分类、当前成熟度、退役身份和
+    “available / conditional / fixture-only / planned” 定义，以
+    <a href="/MOONSUITE_PRODUCT_CATALOG">产品目录</a>为准。
   </p>
   <div class="moon-product-grid">
     <div class="moon-product-card">

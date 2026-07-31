@@ -11,11 +11,11 @@ hero:
     alt: Moon Suite constellation
   actions:
     - theme: brand
-      text: Explore the Moon Suite
-      link: /en/intro
+      text: Product catalog and maturity
+      link: /MOONSUITE_PRODUCT_CATALOG
     - theme: alt
-      text: GitHub
-      link: https://github.com/vectie
+      text: Long-form introduction
+      link: /en/intro
 
 features:
   - title: moonbook
@@ -52,15 +52,48 @@ features:
     details: Lunar world model for terrain analysis, hazard scoring, mission planning, trusted dossiers, and live 3D inspection.
     icon: 🌔
     link: https://github.com/vectie/moonmoon
+
+  - title: moonflow
+    details: Durable Work graphs, attempts, authority, evidence, review, and recovery; it is not a second agent runtime.
+    icon: 🔀
+    link: https://github.com/vectie/moonflow
+
+  - title: moonproj
+    details: OPC operating system for projects, budget, finance, procurement, sales, tax, and treasury; currently migration/preview alpha.
+    icon: 🏢
+    link: https://github.com/vectie/moonproj
+
+  - title: mooncast
+    details: A 3–8 minute AIGC production pack and cut studio; deterministic pipeline proven, real-provider commercial proof pending.
+    icon: 🎬
+    link: https://github.com/vectie/mooncast
+
+  - title: moonfish
+    details: A-share research and paper-portfolio pack with target, upside, horizon, and invalidation; currently research/shadow only.
+    icon: 🐟
+    link: https://github.com/vectie/moonfish
+
+  - title: moonfind
+    details: Evidence-backed cross-paper research pack connecting MoonClaw, MoonTown, and Bookkeeper under provider-use controls.
+    icon: 🔭
+    link: https://github.com/vectie/moonfind
+
+  - title: moonmold
+    details: Governed editable spatial models and representation lineage; currently early digital-model alpha.
+    icon: 🧩
+    link: https://github.com/vectie/moonmold
 ---
 
 <img class="moon-hero-image" src="/generated/moon-suite-hero.svg" alt="Moon Suite hero illustration">
 
 <div class="moon-section">
-  <span class="moon-kicker">What Ships Today</span>
-  <h2>Each repo owns a very specific job</h2>
+  <span class="moon-kicker">Original Core View</span>
+  <h2>Each core repo owns a specific job</h2>
   <p class="moon-lead">
-    The homepage should not hide behind umbrella language. These repos already have concrete product boundaries, and the suite only makes sense when those boundaries stay legible.
+    This section preserves the detailed original core-product introduction.
+    The <a href="/MOONSUITE_PRODUCT_CATALOG">product catalog</a> is
+    authoritative for current classes, maturity, retired identities, and
+    available / conditional / fixture-only / planned capability labels.
   </p>
   <div class="moon-product-grid">
     <div class="moon-product-card">

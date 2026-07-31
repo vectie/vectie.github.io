@@ -1,5 +1,11 @@
 # Introduction
 
+> **Taxonomy notice — 2026-07-30:** This long-form page preserves the original
+> seven-product launch narrative. The current component classes, maturity and
+> retired identities are defined by the
+> [MoonSuite product catalog](/MOONSUITE_PRODUCT_CATALOG.md). Product names in
+> this historical narrative do not imply an installed executable capability.
+
 [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie)
 [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie)
 [![vectie-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#how-to-join)

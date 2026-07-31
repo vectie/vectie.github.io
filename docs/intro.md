@@ -1,5 +1,10 @@
 # 介绍
 
+> **产品分类说明（2026-07-30）：** 本页保留最初的七产品叙事。
+> 当前组件类别、成熟度与退役身份以
+> [MoonSuite 产品目录](/MOONSUITE_PRODUCT_CATALOG.md)为准。
+> 历史叙事中出现产品名，不代表本机已经安装可执行 capability。
+
 [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/vectie)
 [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/vectie)
 [![vectie-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#如何加入)
